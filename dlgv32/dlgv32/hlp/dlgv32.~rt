@@ -1,0 +1,586 @@
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fnil\charset0 Arial;}
+{\f1\fnil\charset0 Tms Rmn;}{\f2\fnil\charset0 Helv;}{\f3\fnil\charset0 Times New Roman;}{\f4\fnil\charset0 MS Sans Serif;}{\f5\fnil\charset0 Helvetica;}
+{\f6\fnil\charset0 Times New Roman CE;}{\f7\fnil\charset0 Times New Roman Cyr;}{\f8\fnil\charset0 Times New Roman Greek;}{\f9\fnil\charset0 Times New Roman Tur;}{\f10\fnil\charset0 Times New Roman Baltic;}
+{\f11\fnil\charset0 Arial CE;}{\f12\fnil\charset0 Arial Cyr;}{\f13\fnil\charset0 Arial Greek;}{\f14\fnil\charset0 Arial Tur;}{\f15\fnil\charset0 Arial Baltic;}
+}
+{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1880\margr1880\margt1440\margb1440{\sb60\sl\sa40 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_ZOOM_OUT}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Zoom Out 2X}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} zoom;magnify}}\plain\f0\fs24\cf0\b Zoom Out\par
+\par
+\plain\f2\fs24\cf0 This button zooms out by a factor of 2, keeping the center where it is.\par
+\page \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} main_index}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Menu Commands}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} Menu Commands}}\plain\f0\fs24\cf0   \plain\f2\fs24\cf0\b DLG Viewer Help Index\par
+\par
+\plain\f2\fs24\cf0\b Commands\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\uldb File menu\plain\f2\fs24\cf0\v menu_file\plain\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\uldb Tools menu\plain\f2\fs24\cf0\v menu_tools\plain\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\uldb View menu\plain\f2\fs24\cf0\v menu_view\plain\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\uldb Help menu\plain\f2\fs24\cf0\v menu_help\plain\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} menu_file}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} File menu commands}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} files: managing}}\plain\f2\fs24\cf0\b File menu commands\par
+\par
+\plain\f2\fs24\cf0 The File menu offers the following commands:\par
+\par
+{\pard\trowd\trgaph57\trleft0\cellx2028\cellx8480\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Open As New\plain\f2\fs24\cf0\v HID_FILE_OPEN_NEW\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Open an overlay by itself\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Open Into Current\plain\f2\fs24\cf0\v HID_FILE_OPEN_CURRENT\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Open an overlay on top of those already loaded\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Unload All\plain\f2\fs24\cf0\v HID_FILE_UNLOAD_ALL\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Unload all overlays\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Print Preview\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Preview the print\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Print\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Print the overlays\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Print Setup\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Configure the printer\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Exit\plain\f2\fs24\cf0\v HID_APP_EXIT\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Exits DLG Viewer.\cell\row
+}\page \sb56\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} menu_view}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} View Menu Commands}}\plain\f2\fs24\cf0\b View menu commands\par
+\par
+\plain\f2\fs24\cf0 The View menu offers the following commands:\par
+\par
+{\pard\trowd\trgaph57\trleft0\cellx1431\cellx7452\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Toolbar\plain\f2\fs24\cf0\v HID_VIEW_TOOLBAR\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Shows or hides the toolbar.\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Status Bar\plain\f2\fs24\cf0\v HID_VIEW_STATUS_BAR\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Shows or hides the status bar.\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Background\plain\f2\fs24\cf0\v HID_BG_COLOR\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Allows you to change the background color\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Full View\plain\f2\fs24\cf0\v HID_VIEW_FULLVIEW\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Make the overlays fill the screen\cell\row
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} menu_tools}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Tools menu commands}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} tools}}\plain\f2\fs24\cf0\b Tool menu commands\par
+\par
+\plain\f2\fs24\cf0 The Tools menu offer the following commands:\par
+\par
+{\pard\trowd\trgaph57\trleft0\cellx1729\cellx8480\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Zoom\plain\f2\fs24\cf0\v HID_TOOLS_ZOOM\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Selects the zoom tool\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Pan\plain\f2\fs24\cf0\v HID_TOOLS_PAN\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Selects the pan tool\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Distance\plain\f2\fs24\cf0\v HID_TOOLS_DISTANCE\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Selects the distance finder tool\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Pick\plain\f2\fs24\cf0\v HID_TOOLS_PICK\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Selects the pick tool\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Polyregion\plain\f2\fs24\cf0\uldb\v HID_TOOLS_POLYREGION\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Select the polyregion tool\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Control Center\plain\f2\fs24\cf0\v HID_TOOLS_CONTROLCENTER\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Open the overlay control center\cell\row
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} menu_help}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Help Menu Commands}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} Help Menu Commands}}\plain\f2\fs24\cf0\b Help menu commands\par
+\par
+\plain\f2\fs24\cf0 The Help menu offers the following commands, which provide you assistance with this application: \par
+\par
+{\pard\trowd\trgaph57\trleft0\cellx1622\cellx7257\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb Help Topics\plain\f2\fs24\cf0\v HID_HELP_INDEX\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Offers you an index to topics on which you can get help.\cell\row
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0\uldb About\plain\f2\fs24\cf0\v HID_APP_ABOUT\cell
+\intbl \sb56\sl\sa56 \plain\f2\fs24\cf0 Displays the version number of this application.\cell\row
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_FILE_OPEN_NEW}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Open As New Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} overlay; open; load; new}}\plain\f2\fs24\cf0\b Open as New Command (File menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Open as New\plain\f2\fs24\cf0  command allows the user to open an overlay to be viewed by itself.  If any other \plain\f2\fs24\cf0 overlays are loaded, they will be closed.  The overlay being opened will be displayed centered an\plain\f2\fs24\cf0 d will fill the screen.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_FILE_OPEN_CURRENT}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Open Into Current Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} overlay; open; load; current}}\plain\f2\fs24\cf0\b Open into Current Command (File menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Open into Current\plain\f2\fs24\cf0  command allows the user to open an overlay to be viewed on top of the overl\plain\f2\fs24\cf0 ays already loaded.  The overlay to be loaded will adopt the current global ground reference syst\plain\f2\fs24\cf0 em and datum.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_FILE_UNLOAD_ALL}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Unload All Command}}\plain\f0\fs20\cf0 {\cs16\super k{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super k} overlay; unload; load}}\plain\f0\fs20\cf0 {\cs16\super k{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super k} overlay; unload; load}}\plain\f2\fs24\cf0\b Unload All Command (File menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Unload All\plain\f2\fs24\cf0  command unloads all overlays and clears the screen.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} AFX_HIDD_FILEOPEN}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} File Open Dialog Box}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} File Open Dialog Box}}\plain\f2\fs24\cf0\b File Open dialog box\par
+\par
+\plain\f2\fs24\cf0 The following options allow you to specify which file to open:\par
+\sb60\sl\sa0 \plain\f2\fs24\cf0\b File Name\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Type or select the filename you want to open.  This box lists files with the extension you select\plain\f2\fs24\cf0  in the List Files of Type box. \par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b List Files of Type\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Select the type of file you want to open:\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b \tab DLG-O: \plain\f2\fs24\cf0 Lists all files with standard extensions used for DLG-Os\par
+\plain\f2\fs24\cf0\b \tab GeoTIFF\plain\f2\fs24\cf0 :  Lists all files with standard extensions used for GeoTIFF \tab \tab \tab \tab images\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\b SDTS/DLG\plain\f2\fs24\cf0 : Lists all files with standard extensions for SDTS/DLG \tab \tab \tab \tab category directory files\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\b USGS DEM: \plain\f2\fs24\cf0 Lists all files with standard extensions for USGS DEMs\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\b GTOPO30:\plain\f2\fs24\cf0  Lists all files with standard extensions for GTOPO30 data \tab \tab \tab sets\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\b Terrain Base:\plain\f2\fs24\cf0  Lists all files with standard extensions for Terrain Base \tab \tab \tab data sets\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0\b All Files:\plain\f2\fs24\cf0  Lists all files in the current directory\par
+\plain\f2\fs24\cf0\b Drives\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Select the drive which holds the file you want to open. \par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Directories\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Select the directory which holds the file that you want to open.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Network...\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Choose this button to connect to a network location, assigning it a new drive letter. \par
+\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_FILE_MRU_FILE1}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} File 1, 2, 3, 4 command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} files: managing}}\plain\f2\fs24\cf0\b 1, 2, 3, 4 command (File menu)\par
+\par
+\plain\f2\fs24\cf0 Use the numbers and filenames listed at the bottom of the File menu to open the last four documen\plain\f2\fs24\cf0 ts you closed.  Choose the number that corresponds with the overlay you want to open.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_APP_EXIT}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} File Exit command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} exit}}\plain\f2\fs24\cf0\b Exit command (File menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to end your DLG Viewer session.\par
+\par
+\plain\f2\fs24\cf0\b Shortcuts\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Mouse:\tab Double-click the application's Control menu button.\par
+\plain\f2\fs24\cf0 \tab \plain\f2\fs24\cf0 \{bmc appexit.bmp\}\par
+\plain\f2\fs24\cf0 Keys:\tab ALT+F4\par
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_VIEW_TOOLBAR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} View Toolbar command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} toolbar}}\plain\f2\fs24\cf0\b Toolbar command (View menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display and hide the Toolbar, which includes buttons for some of the most com\plain\f2\fs24\cf0 mon commands in DLG Viewer.  A check mark appears next to the menu item when the Toolbar is displ\plain\f2\fs24\cf0 ayed.\par
+\par
+\plain\f2\fs24\cf0 See \plain\f2\fs24\cf0\uldb Toolbar\plain\f2\fs24\cf0\v AFX_HIDW_TOOLBAR\plain\f2\fs24\cf0  for help on using the toolbar.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} AFX_HIDW_TOOLBAR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Toolbar}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} toolbar}}\plain\f2\fs24\cf0\b Toolbar\par
+\par
+\plain\f0\fs20\cf0 \{bmc ToolBarText.bmp\}\par
+\par
+\plain\f2\fs24\cf0 The toolbar is displayed across the top of the application window, below the menu bar.  The toolb\plain\f2\fs24\cf0 ar provides quick mouse access to many tools used in DLG Viewer.\par
+\par
+\plain\f2\fs24\cf0 To hide or display the Toolbar, choose Toolbar from the View menu (ALT, V, T).\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_VIEW_STATUS_BAR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} View Status Bar Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} status bar}}\plain\f2\fs24\cf0\b Status Bar command (View menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display and hide the Status Bar, which describes the action to be executed by\plain\f2\fs24\cf0  the selected menu item or depressed toolbar button, and keyboard latch state. A check mark appea\plain\f2\fs24\cf0 rs next to the menu item when the Status Bar is displayed.\par
+\par
+\plain\f2\fs24\cf0 See \plain\f2\fs24\cf0\uldb Status Bar\plain\f2\fs24\cf0\v AFX_HIDW_STATUS_BAR\plain\f2\fs24\cf0  for help on using the status bar.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} AFX_HIDW_STATUS_BAR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Status bar}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} status bar}}\plain\f2\fs24\cf0\b Status Bar\par
+\par
+\plain\f2\fs24\cf0\b \{bmc StatusBar.bmp\}\par
+\plain\f2\fs24\cf0 The status bar is displayed at the bottom of the DLG Viewer  window.  To display or hide the stat\plain\f2\fs24\cf0 us bar, use the Status Bar command in the View menu.\par
+\par
+\plain\f2\fs24\cf0 The left area of the status bar describes actions of menu items as you use the arrow keys to navi\plain\f2\fs24\cf0 gate through menus.  This area similarly shows messages that describe the actions of toolbar butt\plain\f2\fs24\cf0 ons as you depress them, before releasing them.  If after viewing the description of the toolbar \plain\f2\fs24\cf0 button command you wish not to execute the command, then release the mouse button while the point\plain\f2\fs24\cf0 er is off the toolbar button.\par
+\par
+\plain\f2\fs24\cf0 The right areas of the status bar indicate the currently selected tool and the current mouse posi\plain\f2\fs24\cf0 tion in both the global ground reference system for the overlays and in geographical coordinates \plain\f2\fs24\cf0 (i.e. Latitude Longitude ).\par
+\par
+\plain\f2\fs24\cf0 The left area of the status bar will also show color or elevation of the current pixel if it's ov\plain\f2\fs24\cf0 er a raster image, or the element id of the closest vector overlay component.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_BG_COLOR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Background Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} background color; color; background}}\plain\f2\fs24\cf0\b Background command (View menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Background\plain\f2\fs24\cf0  command brings up a color dialog box from which the user can select a color to be \plain\f2\fs24\cf0 the new background color.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_VIEW_FULLVIEW}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Full View Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} full view; view; zoom}}\plain\f2\fs24\cf0\b Full View command (View menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Full View\plain\f2\fs24\cf0  command zooms such that all of the currently loaded overlays fit in the view window\plain\f2\fs24\cf0 .  This command also places the overlays in the center of the view window.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_TOOLS_ZOOM}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Zoom Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} zoom; tool}}\plain\f2\fs24\cf0\b Zoom command (Tools menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Zoom\plain\f2\fs24\cf0  command selects the zoom tool as the current tool.\par
+\par
+\plain\f2\fs24\cf0 The zoom tool provides the following functionality:\par
+\li360\fi-360\ri0 \plain\f2\fs24\cf0 1.  When you left click without dragging the mouse, the view is centered on where you clicked and\plain\f2\fs24\cf0  you zoom in by a factor of two\par
+\plain\f2\fs24\cf0 2.  When you right click, the view is centered on where you clicked and you zoom out by a factor \plain\f2\fs24\cf0 of two\par
+\plain\f2\fs24\cf0 3.  When you hold down the left mouse button and move the mouse, a rectangle appears.  You can re\plain\f2\fs24\cf0 size this rectangle by simply moving the mouse around with the left button depressed.  This recta\plain\f2\fs24\cf0 ngle selects the area you want to zoom in on.  When you have highlighted a satisfactory area, rel\plain\f2\fs24\cf0 ease the left button and the view will fill with what was in the rectangle and will be centered o\plain\f2\fs24\cf0 n the center of the rectangle.\par
+\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_TOOLS_PAN}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Pan Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} pan; tool}}\plain\f2\fs24\cf0\b Pan command (Tools menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Pan\plain\f2\fs24\cf0  command selects the pan tool as the current tool.\par
+\par
+\plain\f2\fs24\cf0 The pan tool provides the following functionality:\par
+\li360\fi-360\ri0 \plain\f2\fs24\cf0 1.  When you click either mouse button inside the view window, the view shifts so that it becomes\plain\f2\fs24\cf0  centered on the point where you clicked\par
+\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_TOOLS_DISTANCE}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Distance Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} distance; tool}}\plain\f2\fs24\cf0\b Distance command (Tools menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Distance\plain\f2\fs24\cf0  command selects the distance-finder tool as the current tool.\par
+\par
+\plain\f2\fs24\cf0 To use the distance-finder tool, do the following:\par
+\li360\fi-360\ri0 \plain\f2\fs24\cf0 1.  Click and release the left mouse button at the spot where you want to begin measuring\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0 2.  Move the mouse (which will drag a line) to the second point.\par
+\li302\fi-302\ri0\sb58\sl\sa0 \plain\f2\fs24\cf0 3.  Click and release the left mouse button again, this will display a \plain\f2\fs24\cf0\uldb dialog   box\plain\f2\fs24\cf0\v HIDD_DISTANCE\plain\f2\fs24\cf0  \plain\f2\fs24\cf0 showing the distance\par
+\page \li0\fi0\ri0\sb60\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_TOOLS_PICK}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Pick Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} pick; tool; select}}\plain\f2\fs24\cf0\b Pick command (Tools menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Pick\plain\f2\fs24\cf0  command selects the pick tool as the current tool.\par
+\par
+\plain\f2\fs24\cf0 To use the pick tool, do the following:\par
+\li360\fi-360\ri0 \plain\f2\fs24\cf0 1.  To pick objects, either press and release the left mouse button near the object(s) you wish t\plain\f2\fs24\cf0 o pick or hold down the left mouse button a drag a selection box around the area you want to pick\plain\f2\fs24\cf0  from.  This will select all objects within the box.\par
+\plain\f2\fs24\cf0 2.  If more than one object was picked, you can cycle through them by pressing and releasing the \plain\f2\fs24\cf0 right mouse button to go the next object.\par
+\li0\fi0\ri0 \par
+\plain\f2\fs24\cf0 When an object is picked, it will be highlighted and a \plain\f2\fs24\cf0\uldb pick dialog box\plain\f2\fs24\cf0\v HIDD_PICK_DIALOG\plain\f2\fs24\cf0  will be di\plain\f2\fs24\cf0 splayed.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_TOOLS_POLYREGION}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Polyregion Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} clipping; polygon; polyregion; region}}\plain\f2\fs24\cf0\b Polyregion command (Tools menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Polyregion\plain\f2\fs24\cf0  command selects the polyregion tool as the current tool.  The polyregion tool allo\plain\f2\fs24\cf0 ws you to select a polygonal region to view.  This ability can be used to just view a single coun\plain\f2\fs24\cf0 ty or to clip the boundaries off of a DRG.\par
+\par
+\plain\f2\fs24\cf0 To use the polyregion tool:\par
+{\tx423 \li360\fi-360\ri0 \plain\f2\fs20\cf0 1.\tab \plain\f2\fs24\cf0 Click the left button once to start your polygon clipping region.\par
+\plain\f2\fs20\cf0 2.\tab \plain\f2\fs24\cf0 Click the left button at each vertex of the polygon.\par
+\plain\f2\fs20\cf0 3.\tab \plain\f2\fs24\cf0 To finish the polygon, click the right button and select the overlays to apply the clipping re\plain\f2\fs24\cf0 gion to from the \plain\f2\fs24\cf0\uldb Overlay Selector\plain\f2\fs24\cf0\uldb\v HIDD_CLIPPING_REGION_SELECTOR\plain\f2\fs24\cf0  dialog box.\par
+}\page \keepn \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_PICK_DIALOG}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Element Information Dialog Box}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} pick; tool; pick dialog; major code; minor code; DCU Name; DLG Category; element ID; element type}}\plain\f0\fs28\cf0\b Element Information Dialog\par\pard
+\sb60\sl\sa0 \par
+\plain\f2\fs28\cf0\b \{bmc ElementInformationDialog.bmp\}\par
+\par
+\plain\f2\fs24\cf0\b DCU Name\par
+\plain\f2\fs24\cf0 The name of the digital cartographic unit which the highlighted element is in\par
+\par
+\plain\f2\fs24\cf0\b Category\par
+\plain\f2\fs24\cf0 The category of the overlay which the highlighted element is in\par
+\par
+\plain\f2\fs24\cf0\b Element ID\par
+\plain\f2\fs24\cf0 The numeric ID assigned to the highlighted element within the overlay\par
+\par
+\plain\f2\fs24\cf0\b Element Type\par
+\plain\f2\fs24\cf0 The type of the highlighted element; either line, degenerate line, node, or area\par
+\par
+\plain\f2\fs24\cf0\b Attribute Codes\par
+\plain\f2\fs24\cf0 This lists the major-minor codes associated with the highlighted element.  \tab If the element has no\plain\f2\fs24\cf0  associated attribute codes, N/A is displayed\par
+\par
+\plain\f0\fs24\cf0\b Description\par
+\plain\f0\fs24\cf0 A textual description of the element if available (SDTS/DLG only).  This description is pulled fr\plain\f0\fs24\cf0 om the Master Data Dictionary.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_TOOLS_CONTROLCENTER}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Control Center Command}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} control center; overlay; options; hide nodes; hide areas; hide overlays; show overlays; close overlays}}\plain\f2\fs24\cf0\b Control Center command (Tools menu)\par
+\par
+\plain\f2\fs24\cf0 The \plain\f2\fs24\cf0\b Control Center\plain\f2\fs24\cf0  command opens the \plain\f2\fs24\cf0\uldb Overlay Control Center\plain\f2\fs24\cf0\v HIDD_MAIN_PROPERTIES_DIALOG\plain\f2\fs24\cf0  if it isn'\plain\f2\fs24\cf0 t already open.  If it is already open, it simply restores it to its original size and brings it \plain\f2\fs24\cf0 to the top.\par
+\page \keepn \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_MAIN_PROPERTIES_DIALOG}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Overlay Control Center Dialog Box}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} overlay control center; overlay; hide areas; hide overlays; hide nodes; show overlays; close overlays}}\plain\f0\fs28\cf0\b Overlay Control Center Dialog\par\pard
+\sb60\sl\sa0 \par
+\plain\f2\fs28\cf0\b \{bmc OverlayControlCenter.bmp\}\par
+\par
+\plain\f2\fs24\cf0\b Currently Opened Overlays\par
+\plain\f2\fs24\cf0 This is a list of the filenames of all the currently opened overlays.  You can select an overlay \plain\f2\fs24\cf0 by clicking on its name.  If the overlay is currently hidden, it is indicated to the left of the \plain\f2\fs24\cf0 filename.\par
+\par
+\plain\f2\fs24\cf0\b Hide All Nodes\par
+\plain\f2\fs24\cf0 Check this box to hide all of the DLG node elements in the overlays loaded and in overlays loaded\plain\f2\fs24\cf0  while this option is selected.\par
+\par
+\plain\f2\fs24\cf0\b Hide All Areas\par
+\plain\f2\fs24\cf0 Check this box to hide all of the DLG area elements in the overlays loaded and in overlays loaded\plain\f2\fs24\cf0  while this option is selected.\par
+\par
+\plain\f2\fs24\cf0\b Hide All Lines\par
+\plain\f2\fs24\cf0 Check this box to hide all of the DLG lines in the overlays loaded and in overlays loaded while t\plain\f2\fs24\cf0 his option is selected.\par
+\par
+\plain\f2\fs24\cf0\b Metadata...\par
+\plain\f2\fs24\cf0 This displays metadata for the currently selected overlay.\par
+\par
+\plain\f2\fs24\cf0\b Options...\par
+\plain\f2\fs24\cf0 Allows you to set various options for the currently selected overlay.\par
+\par
+\plain\f2\fs24\cf0\b Hide (Show) Overlay\par
+\plain\f2\fs24\cf0 This toggles whether the selected overlay(s) is(are) visible or not.\par
+\par
+\plain\f2\fs24\cf0\b Close Overlay\par
+\plain\f2\fs24\cf0 This unloads the selected overlay(s).\par
+\par
+\plain\f2\fs24\cf0\b Remove Clip Regions\par
+\plain\f2\fs24\cf0 Removes any clip regions in use for the selected overlay(s).\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_HELP_INDEX}}\plain\f2\fs24\cf0\b Index command (Help menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display the opening screen of Help.  From the opening screen, you can jump to\plain\f2\fs24\cf0  step-by-step instructions for using DLG Viewer and various types of reference information.  \par
+\par
+\plain\f2\fs24\cf0 Once you open Help, you can click the Contents button whenever you want to return to the opening \plain\f2\fs24\cf0 screen.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_APP_ABOUT}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} About Box}}\plain\f2\fs24\cf0\b About command (Help menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display the copyright notice and version number of your copy of DLG Viewer.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_CONTEXT_HELP}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Help Using Help Command}}\plain\f2\fs24\cf0\b Context Help command \par
+\plain\f2\fs24\cf0 \{bml curhelp.bmp\}\par
+\par
+\plain\f2\fs24\cf0 Use the Context Help command to obtain help on some portion of DLG Viewer.  When you choose the T\plain\f2\fs24\cf0 oolbar's Context Help button, the mouse pointer will change to an arrow and question mark.  Then \plain\f2\fs24\cf0 click somewhere in the DLG Viewer window, such as another Toolbar button.  The Help topic will be\plain\f2\fs24\cf0  shown for the item you clicked.\par
+\par
+\plain\f2\fs24\cf0\b Shortcut\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Keys:\tab SHIFT+F1\par
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_HT_CAPTION}}\plain\f2\fs24\cf0\b Title Bar\par
+\par
+{\tx423 \li360\fi-360\ri0 \plain\f2\fs24\cf0 The title bar is located along the top of a window.  It contains the name of the application.\par
+}\par
+{\tx423 \li360\fi-360\ri0 \plain\f2\fs24\cf0 To move the window, drag the title bar.  Note: You can also move dialog boxes by dragging their t\plain\f2\fs24\cf0 itle bars.\par
+}\par
+{\tx423 \li360\fi-360\ri0 \plain\f2\fs24\cf0 A title bar may contain the following elements:\par
+\sb40\sl\sa40 \plain\f2\fs24\cf0 \{bmc bullet.bmp\}\plain\f2\fs24\cf0 \tab Application Control-menu button\par
+\plain\f2\fs24\cf0 \{bmc bullet.bmp\}\plain\f2\fs24\cf0 \tab Maximize button\par
+\plain\f2\fs24\cf0 \{bmc bullet.bmp\}\plain\f2\fs24\cf0 \tab Minimize button\par
+\plain\f2\fs24\cf0 \{bmc bullet.bmp\}\plain\f2\fs24\cf0 \tab Name of the application\par
+\plain\f2\fs24\cf0 \{bmc bullet.bmp\}\plain\f2\fs24\cf0 \tab Restore button\par
+}\page \sb40\sl\sa40 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_SIZE}}\plain\f2\fs24\cf0\b Size command (System menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display a four-headed arrow so you can size the active window with the arrow \plain\f2\fs24\cf0 keys.\par
+\plain\f2\fs24\cf0 \{bml curarw4.bmp\}\par
+\par
+\plain\f2\fs24\cf0 After the pointer changes to the four-headed arrow:\par
+\li360\fi-360\ri0\sb60\sl\sa40 \plain\f2\fs24\cf0 1.\tab Press one of the DIRECTION keys (left, right, up, or down arrow key) to move the pointer to th\plain\f2\fs24\cf0 e border you want to move.  \par
+\plain\f2\fs24\cf0 2.\tab Press a DIRECTION key to move the border.\par
+\plain\f2\fs24\cf0 3.\tab Press ENTER when the window is the size you want.\par
+\li0\fi0\ri0 \par
+\plain\f2\fs24\cf0 Note:  This command is unavailable if you maximize the window.\par
+\par
+\plain\f2\fs24\cf0\b Shortcut\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Mouse:\tab Drag the size bars at the corners or edges of the window.\par
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_MOVE}}\plain\f2\fs24\cf0\b Move command (Control menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display a four-headed arrow so you can move the active window or dialog box w\plain\f2\fs24\cf0 ith the arrow keys.\par
+\plain\f2\fs24\cf0 \{bmc curarw4.bmp\}\par
+\par
+\plain\f2\fs24\cf0 Note:  This command is unavailable if you maximize the window.\par
+\par
+\plain\f2\fs24\cf0\b Shortcut\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Keys:\tab CTRL+F7\par
+\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_MINIMIZE}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} System Minimize Command}}\plain\f2\fs24\cf0\b Minimize command (application Control menu)\par
+}\par
+\plain\f2\fs24\cf0 Use this command to reduce the DLG Viewer window to an icon.\par
+\li360\fi-360\ri0 \par
+\plain\f2\fs24\cf0\b Shortcut\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Mouse:\tab Click the minimize icon \plain\f2\fs24\cf0 \{bmc scmin.bmp\}\plain\f2\fs24\cf0  on the title bar.\par
+\plain\f2\fs24\cf0 Keys:\tab ALT+F9\par
+}\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_MAXIMIZE}}\plain\f2\fs24\cf0\b Maximize command (System menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to enlarge the active window to fill the available space.\par
+\li360\fi-360\ri0 \par
+\plain\f2\fs24\cf0\b Shortcut\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Mouse:\tab Click the maximize icon \plain\f2\fs24\cf0 \{bmc scmax.bmp\}\plain\f2\fs24\cf0  on the title bar; or double-click the title bar.\par
+\plain\f2\fs24\cf0 Keys:\tab CTRL+F10 enlarges a document window.\par
+}\li1080\fi-360\ri0 \par
+\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_CLOSE}}\plain\f2\fs24\cf0\b Close command (Control menus)\par
+\par
+\plain\f2\fs24\cf0 Use this command to close the active window or dialog box.\par
+\par
+\plain\f2\fs24\cf0 Double-clicking a Control-menu box is the same as choosing the Close command.\par
+\plain\f2\fs24\cf0 \{bml appexit.bmp\}\par
+\par
+\plain\f2\fs24\cf0 Note:  If you have multiple windows open for a single document, the Close command on the document\plain\f2\fs24\cf0  Control menu closes only one window at a time.  You can close all windows at once with the Close\plain\f2\fs24\cf0  command on the File menu.\par
+\par
+\plain\f2\fs24\cf0\b Shortcuts\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Keys: \tab ALT+F4 closes the DLG Viewer window\par
+}\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_RESTORE}}\plain\f2\fs24\cf0\b Restore command (Control menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to return the active window to its size and position before you chose the Maximi\plain\f2\fs24\cf0 ze or Minimize command.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_SC_TASKLIST}}\plain\f2\fs24\cf0\b Switch to command (application Control menu)\par
+\par
+\plain\f2\fs24\cf0 Use this command to display a list of all open applications.  Use this "Task List" to switch to o\plain\f2\fs24\cf0 r close an application on the list.\par
+\par
+\plain\f2\fs24\cf0\b Shortcut\par
+{\tx1410 \li1440\fi-1080\ri0 \plain\f2\fs24\cf0 Keys:\tab CTRL+ESC\par
+}\par
+\plain\f2\fs24\cf0\b Dialog Box Options\par
+\plain\f2\fs24\cf0 When you choose the Switch To command, you will be presented with a dialog box with the following\plain\f2\fs24\cf0  options:\par
+\plain\f2\fs24\cf0\b Task List\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Select the application you want to switch to or close.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Switch To\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Makes the selected application active.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b End Task\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Closes the selected application.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Cancel\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Closes the Task List box.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Cascade\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Arranges open applications so they overlap and you can see each title bar.  This option does not \plain\f2\fs24\cf0 affect applications reduced to icons.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Tile\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Arranges open applications into windows that do not overlap.  This option does not affect applica\plain\f2\fs24\cf0 tions reduced to icons.\par
+\li0\fi0\ri0 \plain\f2\fs24\cf0\b Arrange Icons\par
+\li360\fi0\ri0 \plain\f2\fs24\cf0 Arranges the icons of all minimized applications across the bottom of the screen.\par
+\page \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_DLG_PROPERTIES}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} DLG-O Header Information Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} DLG header; DLG properties; header info; properties; ground reference system; resolution}}\plain\f2\fs24\cf0\b DLG Header Information Dialog\par
+\plain\f2\fs24\cf0\b \{bmc DLGHeaderInfoDialog.bmp\}\par
+\par
+\sb0\sl\sa0 \plain\f2\fs24\cf0 This dialog displays information found in the DLG header.  This information includes information \plain\f2\fs24\cf0 about the DCU of the DLG, the date the DLG was created, the ground reference system used for this\plain\f2\fs24\cf0  DLG as well as other misc. metadata. \par
+\page \sb60\sl\sa40 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_CONTROL_POINT}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} DLG-O Control Point Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} control point; DLG control point}}\plain\f0\fs24\cf0\b Control Point Properties Dialog\par
+\plain\f0\fs24\cf0\b \{bmc DLGControlPointsDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays the attributes of a particular control point from a DLG-O.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_CATEGORY_DIALOG}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} DLG-O Category Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} DLG Category; category; lines; areas; nodes; linkage}}\plain\f0\fs24\cf0\b DLG Category Information Dialog\par
+\plain\f0\fs24\cf0\b \{bmc DLGCategoryDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays information about the category of a DLG, including the category name, the nu\plain\f0\fs24\cf0 mber of lines, nodes, and areas in the category, and linkage information for the particular categ\plain\f0\fs24\cf0 ory.\par
+\page \keepn \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_DLG_OPTIONS}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} DLG View Options Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} DLG; options; line color; hide lines; hide nodes; hide areas; line width; shape}}\plain\f0\fs28\cf0\b DLG View Options Dialog\par\pard
+\sb60\sl\sa40 \par
+\plain\f0\fs24\cf0\b \{bmc DLGViewOptionsDialog.bmp\}\par
+\par
+\plain\f2\fs24\cf0 This dialog allows you to modify how a DLG is displayed.\par
+\par
+\plain\f2\fs24\cf0\b Line Width\par
+\plain\f2\fs24\cf0 Modify the thickness of the pen used to draw DLG elements.\par
+\par
+\plain\f2\fs24\cf0\b Area/Node Shape\par
+\plain\f2\fs24\cf0 Change the shape that areas/nodes are drawn as.\par
+\par
+\plain\f2\fs24\cf0\b Hide Areas/Nodes/Lines\par
+\plain\f2\fs24\cf0 Select whether to hide areas/lines/nodes for a DLG.\par
+\par
+\plain\f2\fs24\cf0\b Line Color\par
+\plain\f2\fs24\cf0 Allows you to select what color DLG elements will be drawn using.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_DISTANCE}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Distance Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} distance}}\plain\f0\fs24\cf0\b Distance Dialog\par
+\plain\f0\fs24\cf0\b \{bmc DistanceDialog.bmp\}\par
+\par
+\plain\f2\fs24\cf0 This dialog shows the distance between two points on the screen.  The distance shown is the great\plain\f2\fs24\cf0 -circle distance.  You can view the distance in different units by selecting from the different c\plain\f2\fs24\cf0 hoices below the displayed distance.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_ ZOOM_IN}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Zoom In 2X}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} zoom; magnify}}\plain\f0\fs24\cf0\b Zoom In\par
+\par
+\plain\f2\fs24\cf0 This button zooms in on the view by a factor of 2, keeping the center where it is. \par
+\page \keepn \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_CLIPPING_REGION_SELECTOR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Overlay Selector Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} clipping region; polyregion; overlay selector; region combination modes}}\plain\f0\fs28\cf0\b Overlay Selector Dialog\par\pard
+\sb60\sl\sa40 \par
+\plain\f0\fs24\cf0\b \{bmc OverlaySelectorDialog.bmp\}\par
+\par
+\plain\f2\fs24\cf0 This dialog prompts the user to select which overlays to apply a clipping region to and how to co\plain\f2\fs24\cf0 mbine the clipping region with those already existing in the overlay(s) it is applied to.\par
+\par
+\plain\f2\fs24\cf0\b Currently Open Overlays\par
+\plain\f2\fs24\cf0 This is a list of all of the overlays currently open, as well as their status as hidden or displa\plain\f2\fs24\cf0 yed.  You select the overlays which you wish to apply the clipping region to from this list.\par
+\par
+\plain\f2\fs24\cf0\b Combination Mode\par
+\plain\f2\fs24\cf0 (Note: Advanced users only)Allows the user to select how to combine the current clipping region w\plain\f2\fs24\cf0 ith those already in the overlay(s) it is being applied to.  The combination modes work as follow\plain\f2\fs24\cf0 s:\par
+{\tx423 \li432\fi-432\ri0\sb58\sl\sa43 \plain\f2\fs24\cf0 1.\tab OR - the new clipping region will contain everything in either the current clipping region and\plain\f2\fs24\cf0  the clipping regions already in existence.\par
+\plain\f2\fs24\cf0 2.\tab AND - the new clipping region will contain everything in both the current clipping region and \plain\f2\fs24\cf0 the clipping regions already in existence.\par
+\plain\f2\fs24\cf0 3.\tab COPY - the new clipping region will contain everything in the current clipping region.\par
+\plain\f2\fs24\cf0 4.\tab DIFF - the new clipping region will contain everything in the current clipping region but not \plain\f2\fs24\cf0 in the clipping regions already in existence.\par
+\plain\f2\fs24\cf0 5.\tab XOR - the new clipping region will contain everything in either the current clipping region an\plain\f2\fs24\cf0 d the clipping regions already in existence but not in both of them.\par
+}\li432\fi-432\ri0\sb58\sl\sa43 \plain\f2\fs24\cf0 \tab \par
+\li0\fi0\ri0\sb60\sl\sa40 \plain\f2\fs24\cf0\b Select All\par
+\plain\f2\fs24\cf0 Selects all of the overlays in the overlay list.\par
+\plain\f2\fs24\cf0 \tab \par
+\plain\f2\fs24\cf0\b Deselect All\par
+\plain\f2\fs24\cf0 Removes selection from all of the overlays in the overlay list.\par
+\page {\tx423 \li360\fi-360\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HID_HT_NOWHERE}}\plain\f2\fs24\cf0\b No Help Available\par
+}\par
+\plain\f2\fs24\cf0 No help is available for this area of the window.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} AFX_HIDP_default}}\par
+\plain\f2\fs24\cf0  \plain\f2\fs24\cf0\b No Help Available\par
+\par
+\plain\f2\fs24\cf0 No help is available for this message box.\par
+\par
+\plain\f2\fs24\cf0 << If you wish to author help specific to each message box prompt, then remove the AFX_HIDP_xxx v\plain\f2\fs24\cf0 alues from the [ALIAS] section of your .HPJ file, and author a topic for each AFX_HIDP_xxx value.\plain\f2\fs24\cf0   For example, AFX_HIDP_INVALID_FILENAME is the help topic for the Invalid Filename message box. \plain\f2\fs24\cf0 >>\par
+\page \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic47}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} File Menu}}\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic49}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Commands}}\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_SDTS_LAYER_DIALOG}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} SDTS Layer Selection Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} SDTS;transfer}}\par
+\plain\f0\fs20\cf0\b SDTS Layer Selection Dialog\par
+\par
+\plain\f0\fs20\cf0\b \{bmc SDTSLayerSelectionDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog allows you to select which layers from an SDTS transfer you wish to load.  To select \plain\f0\fs24\cf0 one or more layers simply click on the layer name.  To unselect a layer which you have accidental\plain\f0\fs24\cf0 y clicked, simply click it again.\par
+\page \sb60\sl\sa40 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_RASTER_OPTIONS}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} General Raster Options Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} raster;transparent;bilinear interpolation;interpolation;texture mapping}}\plain\f0\fs20\cf0\b General Raster Options\par
+\plain\f0\fs24\cf0\b \{bmc GeneralRasterOptionsDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0\b Color Intensity\par
+\plain\f0\fs24\cf0 Controls whether displayed pixels are lightened or darkened before being displayed.  It may be us\plain\f0\fs24\cf0 eful to lighten or darken raster overlays in order to better see overlaying vector data.\par
+\plain\f0\fs24\cf0\b Transparent\par
+\plain\f0\fs24\cf0 Select this option is you wish a particular color to be displayed transparently.  This allows you\plain\f0\fs24\cf0  to see through a layer to the layers underneath.  For example, if you were viewing a DRG on top \plain\f0\fs24\cf0 of a DOQ, you could make the white in the DRG transparent so that you could see much of the DOQ u\plain\f0\fs24\cf0 nderneath.\par
+\par
+\plain\f0\fs24\cf0\b Bilinear Interpolation (Advanced Feature)\par
+\plain\f0\fs24\cf0 Select this to eliminate pixelation that occurs as you zoom in beyond the resolution limits of an\plain\f0\fs24\cf0  overlay.  This is done by interpolating the data from the four surrounding pixels or elevation s\plain\f0\fs24\cf0 amples.\par
+\par
+\plain\f0\fs24\cf0\b Texture Map (Advanced Feature)\par
+\plain\f0\fs24\cf0 This feature allows you to drape a 2D raster overlay on top of a 3D elevation overlay.  Selecting\plain\f0\fs24\cf0  the check box causes the overlay to use any available data from underlying elevation layers to d\plain\f0\fs24\cf0 etermine how to color itself.\par
+\page \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_OVERLAY_TYPE_SELECTOR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Overlay Type Selector Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} overlay type}}\plain\f0\fs24\cf0\b Overlay Type Selector Dialog\par
+\par
+\plain\f0\fs24\cf0\b \{bmc OverlayTypeSelector.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog appears when DLG Viewer could not determine from the filename selected which type of \plain\f0\fs24\cf0 overlay it is.  The user should select the correct overlay type for the file from the list of cho\plain\f0\fs24\cf0 ices.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_RASTER_METADATA}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Generic Raster Metadata Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} raster;metadata;GTOPO30;TerrainBase}}\plain\f0\fs24\cf0\b Raster Metadata Dialog\par
+\par
+\plain\f0\fs24\cf0\b \{bmc GenericRasterMetadataDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays the metadata for raster overlays which do not have specialized metadata dial\plain\f0\fs24\cf0 ogs (i.e. GTOP30, TerrainBase, and USGS DEM overlays).\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_GEOTIFF_VERTICAL_METADATA}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} GeoTIFF Vertical Metadata}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} GeoTIFF;metadata;vertical;elevation}}\plain\f0\fs26\cf0\b GeoTIFF Vertical Metadata\par
+\par
+\plain\f0\fs20\cf0 \{bmc VerticalGeoTIFFMetadata.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays the information found in the GeoTIFF tags describing the vertical aspects of\plain\f0\fs24\cf0  the overlay.\par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_SHADER_OPTIONS}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Shader Options}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} shader;gradient shader;HSV shader;daylight shader;shader options}}\plain\f0\fs28\cf0\b Shader Options\par\pard
+\par
+\plain\f0\fs24\cf0 \{bmc ShaderOptionsDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0\b Daylight Shader Options\par
+\li1152\fi-576\ri0 \plain\f0\fs24\cf0\i Set Surface Color:  \plain\f0\fs24\cf0 Sets the color to which the calculated surface intensity is applied.\par
+\par
+\li0\fi0\ri0 \plain\f0\fs24\cf0\b Gradient Shader Options\par
+\li1152\fi-576\ri0 \plain\f0\fs24\cf0\i Set Low Color:\plain\f0\fs24\cf0   Sets the color of the lowest elevation value.\par
+\plain\f0\fs24\cf0\i Set High Color:\plain\f0\fs24\cf0   Sets the color of the highest elevation value.\par
+\par
+\li0\fi0\ri0 \plain\f0\fs24\cf0\b HSV Shader Options\par
+\li1152\fi-576\ri0 \plain\f0\fs24\cf0\i Low Color Start:\plain\f0\fs24\cf0  (Advanced) Sets where in the HSV color range the lowest elevation will be.\par
+\plain\f0\fs24\cf0\i Value:\plain\f0\fs24\cf0   (Advanced) Modifies the HSV value parameter.\par
+\plain\f0\fs24\cf0\i Saturation:\plain\f0\fs24\cf0  (Advanced) Modifies the HSV saturation parameter.\par
+\plain\f0\fs24\cf0\i Range:\plain\f0\fs24\cf0   Modifies how much of the full HSV range is to be used.  Increasing this value leads to co\plain\f0\fs24\cf0 lor wraparound.\par
+\page \keepn \li0\fi0\ri0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} HIDD_VERTICAL_OPTIONS}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Vertical Options}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} vertical;elevation;shader;water;lighting}}\plain\f0\fs28\cf0\b Vertical Raster Options\par\pard
+\par
+\plain\f0\fs20\cf0\b \{bmc VerticalRasterOptionsDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0\b Shader Selection\par
+\plain\f0\fs24\cf0 This allows you to select which shader to use.  The available shaders are:\par
+\li1152\fi-576\ri0 \plain\f0\fs24\cf0 * \plain\f0\fs24\cf0\b Color Ramp Shader:\plain\f0\fs24\cf0   Ramps color from blue for low elevations to red for the highest elevations.\par
+\plain\f0\fs24\cf0 * \plain\f0\fs24\cf0\b Daylight Shader:\plain\f0\fs24\cf0  Determines the intensity of a pixel from the lighting angle and the surface at\plain\f0\fs24\cf0  that point and then applies the shader's color.\par
+\plain\f0\fs24\cf0 * \plain\f0\fs24\cf0\b Gradient Shader: \plain\f0\fs24\cf0  Moderates the color with elevation between the low elevation and the high ele\plain\f0\fs24\cf0 vation.\par
+\plain\f0\fs24\cf0 * \plain\f0\fs24\cf0\b HSV Shader:\plain\f0\fs24\cf0   Maps the elevations onto the HSV color space.\par
+\par
+\li0\fi0\ri0 \plain\f0\fs24\cf0\b Enable Lighting\par
+\plain\f0\fs24\cf0 Uncheck this option if you do not wish to view elevation data as shaded relief.\par
+\par
+\plain\f0\fs24\cf0\b Lighting Direction\par
+\plain\f0\fs24\cf0 Sets the position at which the light which generates the shading is located.  Note that cartograp\plain\f0\fs24\cf0 hic azimuth and altitude are used.\par
+\par
+\plain\f0\fs24\cf0\b Ambient Lighting\par
+\plain\f0\fs24\cf0 Use to brighten up particular dark looking data sets.\par
+\par
+\plain\f0\fs24\cf0\b Vertical Exaggeration\par
+\plain\f0\fs24\cf0 Use to control the exaggeration of relief features.\par
+\par
+\plain\f0\fs24\cf0\b Water Transparency\par
+\plain\f0\fs24\cf0 Controls the clarity of the water if applied.  Clearer water allows more of the underlying relief\plain\f0\fs24\cf0  to show through, while opaque water allows none.\par
+\par
+\plain\f0\fs24\cf0\b Water Level\par
+\plain\f0\fs24\cf0 Sets the level at which water is displayed.  By default this is at an elevation of 0 meters above\plain\f0\fs24\cf0  sea level.\par
+\par
+\plain\f0\fs24\cf0\b Water Color\par
+\plain\f0\fs24\cf0 Sets the color of the water.  The default is pure blue.\par
+\par
+\plain\f0\fs24\cf0\b Water Enabled\par
+\plain\f0\fs24\cf0 Check to enable the display of water.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_SDTSDLG_AHDR}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} SDTS Attribute Header Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} SDTS;metadata;AHDR module;attribute header module}}\plain\f0\fs24\cf0\b SDTS Attribute Header Module Metadata\par
+\par
+\plain\f0\fs24\cf0\b \{bmc SDTS_AHDRMetadata.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog display metadata from the SDTS Attribute Header (AHDR) module.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_GEOTIFF_METADATA}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} GeoTIFF Metadata}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} GeoTIFF;PCS;metadata}}\plain\f0\fs24\cf0\b GeoTIFF Metadata\par
+\par
+\plain\f0\fs24\cf0\b \{bmc GeoTIFFMetadataDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays information derived from the GeoTIFF tags, including the native projection s\plain\f0\fs24\cf0 ystem of the overlay.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_TIFF_METADATA}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} TIFF Metadata}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} TIFF;metadata}}\plain\f0\fs24\cf0\b TIFF Metadata\par
+\par
+\plain\f0\fs24\cf0\b \{bmc TIFFMetadataDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays information gathered from the TIFF tags of the overlay.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_SDTSDLG_DATAQUALITY}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} SDTS Data Quality Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} SDTS;data quality;metadata}}\plain\f0\fs24\cf0\b SDTS Data Quality Metadata\par
+\par
+\plain\f0\fs24\cf0\b \{bmc SDTS_DataQualityMetadata.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog displays the contents of the SDTS Data Quality modules for this transfer.\par
+\page \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_SDTSDLG_STAT}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} SDTS Transfer Statistics Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} SDTS;transfer statistics;metadata}}\plain\f0\fs24\cf0\b SDTS Transfer Statistics\par
+\par
+\plain\f0\fs24\cf0\b \{bmc SDTS_TransferStatsDialog.bmp\}\par
+\par
+\plain\f0\fs24\cf0 This dialog shows the transfer statistics for this layer of the SDTS transfer.\par
+\page \sb56\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} IDD_SDTSDLG_IDEN}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} SDTS Identification Dialog}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} SDTS;metadata;IDEN;identification module}}\plain\f0\fs26\cf0\b SDTS Identification Dialog\par
+\par
+\plain\f2\fs24\cf0\b \{bmc SDTS_IDENDialog.bmp\}\par
+\par
+\plain\f2\fs24\cf0 This dialog displays metadata from the IDEN module of the SDTS transfer as well as the native pro\plain\f2\fs24\cf0 jection of the layer.\par
+\page \keepn \sb0\sl\sa0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Joining_DRG_Quadrangles}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Joining DRG Quadrangles}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} drg;quadrangles;clipping;polyregion controller}}\plain\f0\fs28\cf0\b Joining DRG Quadrangles\par\pard
+\plain\f0\fs24\cf0 To join two adjacent DRG's use the \plain\f0\fs24\cf0\b\uldb define polygon region\plain\f0\fs24\cf0\b\v HID_TOOLS_POLYREGION\plain\f0\fs24\cf0  tool to trace the ne\plain\f0\fs24\cf0 atline of the top DRG.  \plain\f0\fs24\cf0\b Pan\plain\f0\fs24\cf0  and \plain\f0\fs24\cf0\b zoom\plain\f0\fs24\cf0  can be used without resetting the \plain\f0\fs24\cf0\b\uldb define polygon region\plain\f0\fs24\cf0\v HID_T\plain\f0\fs24\cf0\v OOLS_POLYREGION\plain\f0\fs24\cf0  tool. Clipping can be suspended by selecting one of the other tools.  You can the\plain\f0\fs24\cf0 refore \plain\f0\fs24\cf0\b zoom out\plain\f0\fs24\cf0  and \plain\f0\fs24\cf0\b zoom in \plain\f0\fs24\cf0 on another point on the image between polygon point selections.\par
+\par
+\plain\f0\fs24\cf0 The boundaries of a USGS quadrangle are not straight lines, but are close enough that defining a \plain\f0\fs24\cf0 polygon with the four corners is usually adequate for 7.5-minute quadrangles.  To get a more accu\plain\f0\fs24\cf0 rate approximation of the quadrangle boundary, select additional points between the corners.\par
+\par
+\plain\f0\fs24\cf0 Quadrangles are joined only in the \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  display space.  The program does not provide capabiliti\plain\f0\fs24\cf0 es to save joined images as new data files.\par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic194}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} What is SDTS?}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} SDTS}}\plain\f0\fs28\cf0\b What is SDTS?\par\pard
+\plain\f0\fs24\cf0 The Spatial Data Transfer Standard (SDTS) is a format standard for GIS data.  The purpose of SDTS\plain\f0\fs24\cf0  is to permit static transfers of spatial data between dissimilar computer systems.  SDTS is a \plain\f0\fs24\cf0\i tr\plain\f0\fs24\cf0\i ansfer\plain\f0\fs24\cf0  format, not a \plain\f0\fs24\cf0\i processing \plain\f0\fs24\cf0 format; it does not replace any internal formats of any GIS.  SDT\plain\f0\fs24\cf0 S is also a good archive format; an archive can be thought of as a data transfer through time rat\plain\f0\fs24\cf0 her than through space.\par
+\par
+\plain\f0\fs24\cf0 Although the SDTS was approved as a Federal Information Processing Standard (FIPS) in 1992, the f\plain\f0\fs24\cf0 ormat is not widely implemented in commercial software and is therefore still experimental.  In 1\plain\f0\fs24\cf0 995-96, the USGS produced data in SDTS format from its DLG holdings, and made these data availabl\plain\f0\fs24\cf0 e on the Internet.  The intent was to promote SDTS use by serving large amounts of data for free.\plain\f0\fs24\cf0   The DLG-O native format has not been discontinued, nor have any production or sales policies to\plain\f0\fs24\cf0 ward DLG-O data changed.  DLG-O data are still being produced, and are still available from the s\plain\f0\fs24\cf0 ame sources, at the same prices, as previously.\par
+\par
+\plain\f0\fs24\cf0 Because of the lack of commercial implementations, SDTS has gained a reputation for being extraor\plain\f0\fs24\cf0 dinarily complicated.  The format is complex, but arguably no more so than other modern data form\plain\f0\fs24\cf0 ats. This release of \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  demonstrates that software can hide the complexity of SDTS from the e\plain\f0\fs24\cf0 nd user, just as the complexity of other data formats is hidden by appropriate software.\par
+\par
+\plain\f0\fs24\cf0 However, users of DLG/SDTS data will find that retrieving these data and preparing them for use i\plain\f0\fs24\cf0 s not particularly easy.  This is not due to SDTS, but rather to policy and data packaging decisi\plain\f0\fs24\cf0 ons made when DLG-O data were mass-converted to SDTS.  Some of these decisions were unavoidable, \plain\f0\fs24\cf0 but others were simple mistakes, caused by inexperience with the SDTS format. \par
+\par
+\plain\f0\fs24\cf0 A separate document explains how to download and organize DLG/SDTS data for use with this viewer.\plain\f0\fs24\cf0   That document is titled \plain\f0\fs24\cf0\b Retrieving and Unpacking USGS DLG/SDTS Data, \plain\f0\fs24\cf0 and is available through t\plain\f0\fs24\cf0 he \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  web page at \plain\f0\fs24\cf3\ul http://mcmcweb.er.usgs.gov/viewers/dlgview.html\plain\f0\fs24\cf0 .   For general information \plain\f0\fs24\cf0 about SDTS, see \plain\f0\fs24\cf3\ul http://mcmcweb.er.usgs.gov/sdts\plain\f0\fs24\cf0  \par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic195}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} View DLG-O Attributes}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} DLG-O;Attribute Codes;Pick Tool;Element ID}}\plain\f0\fs28\cf0\b Viewing DLG-O  Attributes\par\pard
+\plain\f0\fs24\cf0 DLG spatial objects (lines, nodes, areas) have cartographic feature attributes attached to them. \plain\f0\fs24\cf0  Attributes are stored as numeric codes.  \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  simply displays the codes without attempting to \plain\f0\fs24\cf0 interpret them.  There are two ways to show these attributes in \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0 :\par
+\par
+\plain\f0\fs24\cf0 1. To display the attributes of a single spatial element, choose the \plain\f0\fs24\cf0\uldb pick tool\plain\f0\fs24\cf0\v HID_TOOLS_PICK\plain\f0\fs24\cf0  from\plain\f0\fs24\cf0  the \plain\f0\fs24\cf0\uldb Tool Bar\plain\f0\fs24\cf0\v AFX_HIDW_TOOLBAR\plain\f0\fs24\cf0 . Click on a DLG line, node, or area.  The element will be highlight\plain\f0\fs24\cf0 ed, and a \plain\f0\fs24\cf0\uldb window\plain\f0\fs24\cf0\v HIDD_PICK_DIALOG\plain\f0\fs24\cf0  will appear that displays the major and minor code numbers for t\plain\f0\fs24\cf0 hat element.  Repeat for other elements.\par
+\par
+\plain\f0\fs24\cf0 2. To view attributes of a group of elements, choose the \plain\f0\fs24\cf0\uldb pick tool\plain\f0\fs24\cf0\v HID_TOOLS_PICK\plain\f0\fs24\cf0  from the \plain\f0\fs24\cf0\uldb Tool Ba\plain\f0\fs24\cf0\uldb r\plain\f0\fs24\cf0\v AFX_HIDW_TOOLBAR\plain\f0\fs24\cf0 .  Click and drag with the left mouse button to define a rectangle.  One of the \plain\f0\fs24\cf0 elements in the box will be highlighted, and a \plain\f0\fs24\cf0\uldb window\plain\f0\fs24\cf0\v HIDD_PICK_DIALOG\plain\f0\fs24\cf0  will appear that displays t\plain\f0\fs24\cf0 he major and minor code numbers for that element.  Click the right mouse button repeatedly to cyc\plain\f0\fs24\cf0 le through all elements that are in the defined rectangle.\par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic196}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Introduction}}\plain\f0\fs28\cf0\b Introduction\par\pard
+\par
+\plain\f0\fs24\cf0 This manual is for \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  version 3.5.  Earlier versions of the software may not contain all the \plain\f0\fs24\cf0 features documented here.  Later versions may contain additional features, or behave differently.\plain\f0\fs24\cf0  To see the version of your software, select \plain\f0\fs24\cf0\b\uldb About DLG viewer\plain\f0\fs24\cf0\b\v HID_APP_ABOUT\plain\f0\fs24\cf0  from the Menu Bar.\par
+\par
+\plain\f0\fs24\cf0 The \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  software runs on Windows NT and Windows 95.  It installs using the "run" option locate\plain\f0\fs24\cf0 d on the start menu.\par
+\par
+\plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  displays several kinds of cartographic data sets: \par
+\par
+{\tx423 \li360\fi-360\ri0 \plain\f3\fs24\cf0 1.\tab \plain\f0\fs24\cf0 Digital line graph optional format (DLG-O)\par
+\plain\f3\fs24\cf0 2.\tab \plain\f0\fs24\cf0 Digital line graph SDTS (DLG/SDTS)\par
+\plain\f3\fs24\cf0 3.\tab \plain\f0\fs24\cf0 GeoTIFF digital raster graphics (DRG)\par
+\plain\f0\fs24\cf0 4.\tab GeoTIFF digital orthophoto quadrangles (DOQ)\par
+\plain\f0\fs24\cf0 5.\tab GeoTIFF USGS digital elevation models (DEM)\par
+\plain\f0\fs24\cf0 6.\tab Native format USGS digital elevation models (DEM)\par
+\plain\f0\fs24\cf0 7.\tab GTOPO30 digital elevation models (GTOPO30)\par
+\plain\f0\fs24\cf0 8.\tab Terrain Base digital elevation models\par
+\plain\f0\fs24\cf0 9.\tab Digital elevation model SDTS (DEM/SDTS)\par
+}\par
+\plain\f0\fs24\cf0\b\i dlgv32 is not a substitute for commercial geographic information system  (GIS) software.  The pro\plain\f0\fs24\cf0\b\i gram is a data viewer, designed to allow preview of USGS data. \plain\f0\fs24\cf0  It contains no editing, analysis,\plain\f0\fs24\cf0  or other GIS functions. This is a result of deliberate government policy to avoid competition wi\plain\f0\fs24\cf0 th private-sector software.\par
+\par
+\plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  is not a stand-alone tutorial for learning about USGS cartographic data.  For information \plain\f0\fs24\cf0 about DLG and DRG format, content, and structure, see the National Mapping Program GeoSpatial Dat\plain\f0\fs24\cf0 a Standards page at \plain\f0\fs24\cf3\ul http://mapping.usgs.gov/www/html/1stand.html\plain\f0\fs24\cf0  \par
+\par
+\plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  is public domain software and may be freely copied and distributed.\par
+\par
+\plain\f0\fs24\cf0 Please send comments and bug reports to dlgview@mailrmon1.er.usgs.gov.\par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic197}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} View DLG/SDTS Attributes}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} DLG/SDTS;SDTS;attributes;metadata}}\plain\f0\fs28\cf0\b View DLG/SDTS Attributes\par\pard
+\par
+\plain\f0\fs24\cf0\b Spatial objects\par
+\plain\f0\fs24\cf0 Spatial objects (lines, nodes, areas) of SDTS transfers are selected in the same way as spatial o\plain\f0\fs24\cf0 bjects for DLG-O data.  Refer to section on \plain\f0\fs24\cf0\uldb Viewing DLG-O Attributes\plain\f0\fs24\cf0\v Topic195\plain\f0\fs24\cf0 .\par
+\par
+\plain\f0\fs24\cf0 Unlike DLG-O, SDTS data permits attributes to be stored as English text, or any other form the da\plain\f0\fs24\cf0 ta producer believes appropriate.  In the conversion of DLG-O data to SDTS, the USGS preserved th\plain\f0\fs24\cf0 e DLG-O attribute codes, but also interpreted these codes and stored the interpretations in the S\plain\f0\fs24\cf0 DTS data.  \plain\f0\fs24\cf0\i dlgv32\plain\f0\fs24\cf0  displays both of these attributes. The software does not actually interpret the\plain\f0\fs24\cf0  major-minor codes, but rather displays whatever information is contained in the SDTS data dictio\plain\f0\fs24\cf0 nary about the meaning of attribute codes.\par
+\par
+\plain\f0\fs24\cf0\b Metadata\par
+\plain\f0\fs24\cf0 The SDTS requires that the data producers provide some statement of the sources and quality of th\plain\f0\fs24\cf0 e data.  To view these statements, and other information about the transfer, select \plain\f0\fs24\cf0\b\uldb Open Control \plain\f0\fs24\cf0\b\uldb Center\plain\f0\fs24\cf0\b\v HID_TOOLS_CONTROLCENTER\plain\f0\fs24\cf0 , then select \plain\f0\fs24\cf0\b\uldb Metadata\plain\f0\fs24\cf0\b\v HIDD_MAIN_PROPERTIES_DIALOG\plain\f0\fs24\cf0 .\par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic198}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Hide Selected Parts of an Image}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super K} polyregion controller;clipping}}\plain\f0\fs28\cf0\b Hide Selected Parts of Image\par\pard
+\plain\f0\fs24\cf0 Choose \plain\f0\fs24\cf0\b\uldb define polygon region\plain\f0\fs24\cf0\v HID_TOOLS_POLYREGION\plain\f0\fs24\cf0  from the \plain\f0\fs24\cf0\uldb Tool Bar\plain\f0\fs24\cf0\v AFX_HIDW_TOOLBAR\plain\f0\fs24\cf0 . Click (do not\plain\f0\fs24\cf0  hold) on a point in the image.  As the cursor is moved, a line is drawn from the point of the mo\plain\f0\fs24\cf0 use click. Click again to define a second fixed point.  Repeat as many times as needed to define \plain\f0\fs24\cf0 a polygon.  Click the \plain\f0\fs24\cf0\b right\plain\f0\fs24\cf0  mouse button to close the polygon.\par
+\par
+\plain\f0\fs24\cf0 When the polygon is closed, a \plain\f0\fs24\cf0\uldb window\plain\f0\fs24\cf0\v HIDD_CLIPPING_REGION_SELECTOR\plain\f0\fs24\cf0  appears with a list of currentl\plain\f0\fs24\cf0 y open overlays.  Select the overlays that the polygon should apply to and click \plain\f0\fs24\cf0\b [OK].\plain\f0\fs24\cf0   The area \plain\f0\fs24\cf0 inside the polygon remains displayed, while the area outside the polygon (on the selected overlay\plain\f0\fs24\cf0 s) becomes invisible.\par
+\par
+\plain\f0\fs24\cf0 To undo region hiding, choose \plain\f0\fs24\cf0\b\uldb open control center\plain\f0\fs24\cf0\b\v HID_TOOLS_CONTROLCENTER\plain\f0\fs24\cf0\b .\plain\f0\fs24\cf0   Select an active overl\plain\f0\fs24\cf0 ay, and choose \plain\f0\fs24\cf0\b\uldb remove clip regions\plain\f0\fs24\cf0\b\v HIDD_MAIN_PROPERTIES_DIALOG\plain\f0\fs24\cf0\b .\par
+\page \keepn \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super #} Topic199}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super $} Layer an image on an elevation model}}\plain\f0\fs28\cf0\b Layer an image on an elevation model\par\pard
+\plain\f0\fs24\cf0 First load the elevation model(s) on which you wish to layer the 2D image (i.e. DRGs, DOQs, etc.)\plain\f0\fs24\cf0 .   Now load the 2D image(s) you wish to layer.  From the \plain\f0\fs24\cf0\uldb Control Center Dialog\plain\f0\fs24\cf0  highlight the 2D \plain\f0\fs24\cf0 image and select \plain\f0\fs24\cf0\i Texture Map\plain\f0\fs24\cf0\b\i  \plain\f0\fs24\cf0 from the \plain\f0\fs24\cf0\uldb options page\plain\f0\fs20\cf0\v HIDD_RASTER_OPTIONS\plain\f0\fs24\cf0 .  The 2D image should now b\plain\f0\fs24\cf0 e layered on top of all the elevation models that it intersects.  You may also want to turn on \plain\f0\fs24\cf0\i Bi\plain\f0\fs24\cf0\i linear Interpolation\plain\f0\fs24\cf0  for the elevation model(s) in order to make the result look nice as you zoom\plain\f0\fs24\cf0  in.}
+}

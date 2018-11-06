@@ -1,0 +1,179 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "GraphicsLib"=".\GraphicsLib\GraphicsLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ProjectionLib"=".\ProjectionLib\ProjectionLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "builder"=".\sdtsxx\builder\builder.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "container"=".\sdtsxx\container\container.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dlg"=".\dlg\dlg.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dlgv32"=".\dlgv32\Dlgv32.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name dlg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name gctpc
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GraphicsLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libgeotiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name mvc
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name io
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name builder
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name container
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ProjectionLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gctpc"=".\gctpc\gctpc.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "io"=".\sdtsxx\io\io.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libgeotiff"=".\libgeotiff\libgeotiff.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libtiff"=".\libtiff\libtiff.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "mvc"=".\mvc\mvc.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

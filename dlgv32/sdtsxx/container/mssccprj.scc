@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[container.dsp]
+SCC_Aux_Path = "D:\Program Files\Microsoft Visual Studio\Common\VSS"
+SCC_Project_Name = "$/dlgv32/dlgv32/sdtsxx/container", QACAAAAA

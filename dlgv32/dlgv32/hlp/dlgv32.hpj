@@ -1,0 +1,47 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 2.1.6.4
+; Windows Help Designer is copyright (C) 1996, 1997, by Nick Ameladiotis
+; Visit http://www.devgr.com for more informations
+;
+[OPTIONS]
+COMPRESS=60 Hall Zeck
+ERRORLOG=dlgv32.LOG
+LCID=0x409 0x0 0x0 ; English (United States)
+REPORT=Yes
+CONTENTS=main_index
+TITLE=DLG Viewer Help
+COPYRIGHT=United States Geological Survery 1999
+HLP=dlgv32.hlp
+
+[FILES]
+newdlgv32.rtf
+
+[MAP]
+Topic47=0x2F
+Topic49=0x31
+IDD_SDTS_LAYER_DIALOG=0xA1
+HIDD_RASTER_OPTIONS=0x93
+IDD_OVERLAY_TYPE_SELECTOR=0xB6
+IDD_RASTER_METADATA=0xB4
+IDD_GEOTIFF_VERTICAL_METADATA=0xB3
+IDD_SHADER_OPTIONS=0xB1
+HIDD_VERTICAL_OPTIONS=0xB0
+IDD_SDTSDLG_AHDR=0xAA
+IDD_GEOTIFF_METADATA=0xA7
+IDD_TIFF_METADATA=0xA6
+IDD_SDTSDLG_DATAQUALITY=0xA5
+IDD_SDTSDLG_STAT=0xA3
+IDD_SDTSDLG_IDEN=0xA2
+Joining_DRG_Quadrangles=0xC1
+Topic194=0xC2
+Topic195=0xC3
+Topic196=0xC4
+Topic197=0xC5
+Topic198=0xC6
+Topic199=0xC7
+
+[WINDOWS]
+main="",,0,(r14811135),(r12632256)

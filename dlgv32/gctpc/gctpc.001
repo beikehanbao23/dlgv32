@@ -1,0 +1,392 @@
+# Microsoft Developer Studio Project File - Name="gctpc" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 5.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Static Library" 0x0104
+
+CFG=gctpc - Win32 Release
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "gctpc.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "gctpc.mak" CFG="gctpc - Win32 Release"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "gctpc - Win32 Release" (based on "Win32 (x86) Static Library")
+!MESSAGE "gctpc - Win32 Debug" (based on "Win32 (x86) Static Library")
+!MESSAGE 
+
+# Begin Project
+# PROP Scc_ProjName ""$/gctpc", DPAAAAAA"
+# PROP Scc_LocalPath "."
+CPP=cl.exe
+
+!IF  "$(CFG)" == "gctpc - Win32 Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir ".\Release"
+# PROP BASE Intermediate_Dir ".\Release"
+# PROP BASE Target_Dir "."
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir ".\Release"
+# PROP Intermediate_Dir ".\Release"
+# PROP Target_Dir "."
+# ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /YX /c
+# ADD CPP /nologo /MD /W3 /GR /GX /O2 /I "..\\" /I ".." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "NEED_SINCOS" /D "_MBCS" /D "_AFXDLL" /FD /c
+# SUBTRACT CPP /YX
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo /NODEFAULTLIB:library
+
+!ELSEIF  "$(CFG)" == "gctpc - Win32 Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir ".\gctpc___"
+# PROP BASE Intermediate_Dir ".\gctpc___"
+# PROP BASE Target_Dir "."
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "./Debug"
+# PROP Intermediate_Dir "./Debug"
+# PROP Target_Dir "."
+# ADD BASE CPP /nologo /W3 /GX /Z7 /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /YX /c
+# ADD CPP /nologo /MDd /W2 /GR /GX /Z7 /Od /I "\jferg\work" /I "..\\" /I "../" /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "NEED_SINCOS" /D "_MBCS" /FD /c
+# SUBTRACT CPP /Fr /YX
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+
+!ENDIF 
+
+# Begin Target
+
+# Name "gctpc - Win32 Release"
+# Name "gctpc - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90"
+# Begin Source File
+
+SOURCE=.\alberfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\alberinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\alconfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\alconinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\azimfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\aziminv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\cproj.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\eqconfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\eqconinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\equifor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\equiinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\for_init.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\gctp.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\gnomfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\gnominv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\goodfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\goodinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\gvnspfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\gvnspinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\hamfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\haminv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\imolwfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\imolwinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\inv_init.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\lamazfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\lamazinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\lamccfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\lamccinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\merfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\merinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\millfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\millinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\molwfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\molwinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\obleqfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\obleqinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\omerfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\omerinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\orthfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\orthinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\paksz.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\polyfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\polyinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\psfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\psinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\report.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\robfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\robinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\sinfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\sininv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\somfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\sominv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\sphdz.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\sterfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\sterinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\stplnfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\stplninv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\tmfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\tminv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\untfz.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\vandgfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\vandginv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\wivfor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\wivinv.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\wviifor.cxx
+# End Source File
+# Begin Source File
+
+SOURCE=.\wviiinv.cxx
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl;fi;fd"
+# Begin Source File
+
+SOURCE=.\cproj.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\for_init.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\gctp.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\gctpc.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inv_init.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\proj.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\report.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\sphdz.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\untfz.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# End Group
+# End Target
+# End Project

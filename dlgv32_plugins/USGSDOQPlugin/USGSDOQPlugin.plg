@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: USGSDOQPlugin - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib comctl32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ImageLib.lib libtiff.lib libgeotiff.lib /nologo /dll /incremental:yes /pdb:"Release/USGSDOQPlugin.pdb" /machine:I386 /nodefaultlib:"msvcprt.lib" /nodefaultlib:"msvcrt.lib" /out:"Release/USGSDOQPlugin.dll" /implib:"Release/USGSDOQPlugin.lib" /libpath:"c:\lib" 
+".\Release\LayerFactory.obj"
+".\Release\RasterPlugin.obj"
+".\Release\RasterPluginLayer.obj"
+".\Release\USGSDOQPluginLayer.obj"
+".\Release\USGSDOQPlugin.res"
+]
+Creating command line "link.exe @C:\TEMP\RSP5.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Release/USGSDOQPlugin.lib and object Release/USGSDOQPlugin.exp
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::ios_base::Init::Init(void)" (??0Init@ios_base@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::ios_base::Init::~Init(void)" (??1Init@ios_base@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::_Winit::_Winit(void)" (??0_Winit@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::_Winit::~_Winit(void)" (??1_Winit@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int)" (?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Tidy(bool)" (?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""void __cdecl std::_Xlen(void)" (?_Xlen@std@@YAXXZ)" imported
+LINK : warning LNK4049: locally defined symbol ""char const  `private: static char const * __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Nullstr(void)'::`2'::_C" (?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *,unsigned int)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""const  std::bad_alloc::`vftable'" (??_7bad_alloc@std@@6B@)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall exception::exception(char const * const &)" (??0exception@@QAE@ABQBD@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""struct std::nothrow_t const  std::nothrow" (?nothrow@std@@3Unothrow_t@1@B)" imported
+LINK : warning LNK4049: locally defined symbol ""public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""public: static unsigned int const  std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::npos" (?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB)" imported
+LINK : warning LNK4049: locally defined symbol ""public: virtual __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::~basic_filebuf<char,struct std::char_traits<char> >(void)" (??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::locale::~locale(void)" (??1locale@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: virtual __thiscall std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: virtual __thiscall std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""public: void __thiscall std::ios_base::clear(int,bool)" (?clear@ios_base@std@@QAEXH_N@Z)" imported
+LINK : warning LNK4049: locally defined symbol "_fclose" imported
+LINK : warning LNK4049: locally defined symbol ""public: class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::read(char *,int)" (?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADH@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""public: class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::open(char const *,int)" (?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDH@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""const  std::basic_ifstream<char,struct std::char_traits<char> >::`vftable'" (??_7?$basic_ifstream@DU?$char_traits@D@std@@@std@@6B@)" imported
+LINK : warning LNK4049: locally defined symbol ""protected: void __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Init(struct _iobuf *,enum std::basic_filebuf<char,struct std::char_traits<char> >::_Initfl)" (?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""const  std::basic_filebuf<char,struct std::char_traits<char> >::`vftable'" (??_7?$basic_filebuf@DU?$char_traits@D@std@@@std@@6B@)" imported
+LINK : warning LNK4049: locally defined symbol ""public: __thiscall std::locale::locale(void)" (??0locale@std@@QAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""protected: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::init(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""const  std::basic_istream<char,struct std::char_traits<char> >::`vftable'" (??_7?$basic_istream@DU?$char_traits@D@std@@@std@@6B@)" imported
+LINK : warning LNK4049: locally defined symbol ""const  std::basic_ios<char,struct std::char_traits<char> >::`vftable'" (??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@)" imported
+LINK : warning LNK4049: locally defined symbol ""protected: __thiscall std::ios_base::ios_base(void)" (??0ios_base@std@@IAE@XZ)" imported
+LINK : warning LNK4049: locally defined symbol ""const  std::basic_ifstream<char,struct std::char_traits<char> >::`vbtable'" (??_8?$basic_ifstream@DU?$char_traits@D@std@@@std@@7B@)" imported
+LINK : warning LNK4049: locally defined symbol ""private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Eos(unsigned int)" (?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""private: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Grow(unsigned int,bool)" (?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z)" imported
+LINK : warning LNK4049: locally defined symbol ""public: virtual __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::~basic_ifstream<char,struct std::char_traits<char> >(void)" (??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAE@XZ)" imported
+
+
+
+<h3>Results</h3>
+USGSDOQPlugin.dll - 0 error(s), 38 warning(s)
+</pre>
+</body>
+</html>

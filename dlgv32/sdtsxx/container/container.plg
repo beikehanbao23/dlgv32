@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: container - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP2A.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /Ob2 /I ".." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /TP /c 
+"D:\dlgv32\sdtsxx\container\sc_Field.cpp"
+"D:\dlgv32\sdtsxx\container\sc_Module.cpp"
+"D:\dlgv32\sdtsxx\container\sc_MultiTypeValue.cpp"
+"D:\dlgv32\sdtsxx\container\sc_Record.cpp"
+"D:\dlgv32\sdtsxx\container\sc_Subfield.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP2A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\container.lib"  .\Release\sc_Field.obj .\Release\sc_Module.obj .\Release\sc_MultiTypeValue.obj .\Release\sc_Record.obj .\Release\sc_Subfield.obj "
+<h3>Output Window</h3>
+Compiling...
+sc_Field.cpp
+sc_Module.cpp
+sc_MultiTypeValue.cpp
+sc_Record.cpp
+sc_Subfield.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+container.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

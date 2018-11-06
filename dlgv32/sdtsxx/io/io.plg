@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: io - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP5E.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /Ob2 /I ".." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /TP /c 
+"D:\dlgv32\sdtsxx\io\formatparser_tab.c"
+"D:\dlgv32\sdtsxx\io\lex.sio_8211_yy.c"
+"D:\dlgv32\sdtsxx\io\sio_8211Converter.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211DDR.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211DDRField.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211DDRLeader.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211Directory.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211DirEntry.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211DR.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211DRLeader.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211Field.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211FieldArea.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211FieldFormat.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211Leader.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211Record.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211SubfieldFormat.cpp"
+"D:\dlgv32\sdtsxx\io\sio_8211Utils.cpp"
+"D:\dlgv32\sdtsxx\io\sio_Buffer.cpp"
+"D:\dlgv32\sdtsxx\io\sio_Converter.cpp"
+"D:\dlgv32\sdtsxx\io\sio_Error.cpp"
+"D:\dlgv32\sdtsxx\io\sio_Reader.cpp"
+"D:\dlgv32\sdtsxx\io\sio_Utils.cpp"
+"D:\dlgv32\sdtsxx\io\sio_Writer.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP5E.tmp" 
+Creating temporary file "C:\TEMP\RSP5F.tmp" with contents
+[
+/nologo /out:"Release\io.lib" 
+.\Release\formatparser_tab.obj
+.\Release\lex.sio_8211_yy.obj
+.\Release\sio_8211Converter.obj
+.\Release\sio_8211DDR.obj
+.\Release\sio_8211DDRField.obj
+.\Release\sio_8211DDRLeader.obj
+.\Release\sio_8211Directory.obj
+.\Release\sio_8211DirEntry.obj
+.\Release\sio_8211DR.obj
+.\Release\sio_8211DRLeader.obj
+.\Release\sio_8211Field.obj
+.\Release\sio_8211FieldArea.obj
+.\Release\sio_8211FieldFormat.obj
+.\Release\sio_8211Leader.obj
+.\Release\sio_8211Record.obj
+.\Release\sio_8211SubfieldFormat.obj
+.\Release\sio_8211Utils.obj
+.\Release\sio_Buffer.obj
+.\Release\sio_Converter.obj
+.\Release\sio_Error.obj
+.\Release\sio_Reader.obj
+.\Release\sio_Utils.obj
+.\Release\sio_Writer.obj
+]
+Creating command line "link.exe -lib @C:\TEMP\RSP5F.tmp"
+<h3>Output Window</h3>
+Compiling...
+formatparser_tab.c
+lex.sio_8211_yy.c
+sio_8211Converter.cpp
+sio_8211DDR.cpp
+sio_8211DDRField.cpp
+sio_8211DDRLeader.cpp
+sio_8211Directory.cpp
+sio_8211DirEntry.cpp
+sio_8211DR.cpp
+sio_8211DRLeader.cpp
+sio_8211Field.cpp
+sio_8211FieldArea.cpp
+sio_8211FieldFormat.cpp
+sio_8211Leader.cpp
+sio_8211Record.cpp
+sio_8211SubfieldFormat.cpp
+sio_8211Utils.cpp
+sio_Buffer.cpp
+sio_Converter.cpp
+sio_Error.cpp
+D:\dlgv32\sdtsxx\io\sio_Error.cpp(39) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Generating Code...
+D:\dlgv32\sdtsxx\io\sio_8211Converter.cpp(698) : warning C4700: local variable 'val' used without having been initialized
+Compiling...
+sio_Reader.cpp
+sio_Utils.cpp
+sio_Writer.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+io.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,1308 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\dlgv32.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\dlgv32.ico"
+IDR_DLGV32TYPE          ICON    DISCARDABLE     "res\\dlgv32Doc.ico"
+IDI_FINGER              ICON    DISCARDABLE     "res\\Finger.ico"
+IDI_MAGNIFY             ICON    DISCARDABLE     "res\\Magnify.ico"
+IDI_CURSOR              ICON    DISCARDABLE     "res\\Cursor.ico"
+IDI_EARTH               ICON    DISCARDABLE     "res\\Space - Earth 1.ico"
+IDI_CONTROL_CENTER      ICON    DISCARDABLE     "res\\Control.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "hlp\\CurHelp.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_FILE_OPEN_NEW
+    BUTTON      ID_FILE_OPEN_CURRENT
+    SEPARATOR
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_VIEW_FULLVIEW
+    BUTTON      ID_TOOLS_CONTROLCENTER
+    SEPARATOR
+    BUTTON      ID_TOOLS_ZOOM
+    BUTTON      ID_TOOLS_PAN
+    BUTTON      ID_TOOLS_DISTANCE
+    BUTTON      ID_TOOLS_PICK
+    BUTTON      ID_TOOLS_POLYREGION
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Open As New...",              ID_FILE_OPEN_NEW
+        MENUITEM "Open Into Current...",        ID_FILE_OPEN_CURRENT, GRAYED
+        MENUITEM "Unload All...",               ID_FILE_UNLOAD_ALL, GRAYED
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Preview...",            ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Background...",              ID_BG_COLOR
+        MENUITEM "&Full View",                  ID_VIEW_FULLVIEW
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Zoom",                        ID_TOOLS_ZOOM, CHECKED
+        MENUITEM "Pan",                         ID_TOOLS_PAN
+        MENUITEM "Distance",                    ID_TOOLS_DISTANCE
+        MENUITEM "Pick",                        ID_TOOLS_PICK
+        MENUITEM "PolyRegion",                  ID_TOOLS_POLYREGION
+        MENUITEM SEPARATOR
+        MENUITEM "Control Center...",           ID_TOOLS_CONTROLCENTER
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About DLG Viewer...",        ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 203, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About DLG Viewer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_EARTH,ID_STATIC,11,25,20,20
+    LTEXT           "DLG Viewer v3.7",IDC_STATIC,38,10,90,8,SS_NOPREFIX
+    LTEXT           "Copyright © 1998",IDC_STATIC,38,22,66,8
+    DEFPUSHBUTTON   "OK",IDOK,151,28,32,14,WS_GROUP
+    LTEXT           "United States Geological Survey\nMid Continent Mapping Center\nRolla, Missouri",
+                    IDC_STATIC,38,34,108,26
+END
+
+IDD_LOADING_DIALOG DIALOG DISCARDABLE  100, 100, 183, 38
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Loading, Please Wait..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,7,169,23
+END
+
+IDD_MAIN_PROPERTIES_DIALOG DIALOG DISCARDABLE  0, 0, 335, 159
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Overlay Control Center"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_OVERLAY_LIST,17,25,297,71,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "&Close",IDOK,142,136,50,14
+    PUSHBUTTON      "Metadata...",IDC_PROPERTIES_BUTTON,17,114,51,16,
+                    WS_DISABLED
+    PUSHBUTTON      "Options...",IDC_OPTIONS_BUTTON,74,114,42,16,WS_DISABLED
+    PUSHBUTTON      "Close Overlay",IDC_CLOSE_OVERLAY,178,114,49,16,
+                    WS_DISABLED
+    LTEXT           "Currently Opened Overlays",IDC_STATIC,18,13,124,9
+    PUSHBUTTON      "Hide Overlay",IDC_SHOW_OVERLAY,122,114,50,16,
+                    WS_DISABLED
+    CONTROL         "Hide All Nodes",IDC_HIDE_NODES_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,65,101,65,11
+    CONTROL         "Hide All Areas",IDC_HIDE_AREAS_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,133,101,65,11
+    CONTROL         "Hide All Lines",IDC_HIDE_LINES_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,199,101,65,11
+    PUSHBUTTON      "Remove Clip Regions",IDC_REMOVE_CLIPS,233,114,80,16,
+                    WS_DISABLED
+END
+
+IDD_PICK_DIALOG DIALOG DISCARDABLE  0, 50, 183, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Element Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Element ID:",IDC_STATIC,7,30,46,8
+    LTEXT           "0",IDC_ELEMENT_ID,59,30,109,8
+    RTEXT           "Element Type:",IDC_STATIC,7,40,46,8
+    LTEXT           "Line",IDC_ELEMENT_TYPE,59,40,109,8
+    CONTROL         "List1",IDC_ATT_CODE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,7,64,169,43
+    CTEXT           "Attributes",IDC_STATIC,47,54,88,9
+    RTEXT           "DCU Name:",IDC_STATIC,7,10,46,8
+    LTEXT           "Static",IDC_PICK_DCU_NAME,59,10,109,8
+    RTEXT           "Category:",IDC_STATIC,7,20,46,8
+    LTEXT           "Static",IDC_PICK_CATEGORY,59,20,109,8
+    PUSHBUTTON      "&Close",IDC_CLOSE_PICK_DIALOG,63,154,56,16
+    EDITTEXT        IDC_ENTITY_DESC,7,111,169,39,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_DLGO_CATEGORY_DIALOG DIALOG DISCARDABLE  0, 0, 169, 165
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Category Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Category ID:",IDC_STATIC,7,7,90,8
+    LTEXT           "Category Name:",IDC_STATIC,7,17,90,8
+    LTEXT           "Format Codes:",IDC_STATIC,7,27,90,8
+    LTEXT           "Number Nodes Referenced:",IDC_STATIC,7,37,90,8
+    LTEXT           "Number Actual Nodes:",IDC_STATIC,7,47,90,8
+    LTEXT           "Static",IDC_DLGO_CATEGORY_ID,105,7,57,8
+    LTEXT           "Static",IDC_DLGO_CATEGORY_NAME,105,17,57,8
+    LTEXT           "Static",IDC_DLGO_FORMAT_CODES,105,27,57,8
+    LTEXT           "Static",IDC_DLGO_NODES_REFERENCED,105,37,57,8
+    LTEXT           "Static",IDC_DLGO_ACTUAL_NODES,105,47,57,8
+    LTEXT           "Number Areas Referenced:",IDC_STATIC,7,57,90,8
+    LTEXT           "Number Actual Areas:",IDC_STATIC,7,67,90,8
+    LTEXT           "Number Lines Referenced:",IDC_STATIC,7,77,90,8
+    LTEXT           "Number Actual Lines:",IDC_STATIC,7,87,90,8
+    LTEXT           "Node-to-Area Linkage Flag:",IDC_STATIC,7,97,90,8
+    LTEXT           "Node-to-Line Linkage Flag:",IDC_STATIC,7,107,90,8
+    LTEXT           "Area-to-Node Linkage Flag:",IDC_STATIC,7,117,90,8
+    LTEXT           "Area-to-Line Linkage Flag:",IDC_STATIC,7,127,90,8
+    LTEXT           "Area Coordinate List Flag:",IDC_STATIC,7,137,90,8
+    LTEXT           "Line Coordinate List Flag:",IDC_STATIC,7,147,90,8
+    LTEXT           "Static",IDC_DLGO_AREAS_REF,105,57,57,8
+    LTEXT           "Static",IDC_DLGO_ACTUAL_AREAS,105,67,57,8
+    LTEXT           "Static",IDC_DLGO_LINES_REF,105,77,57,8
+    LTEXT           "Static",IDC_DLGO_ACTUAL_LINES,105,87,57,8
+    LTEXT           "Static",IDC_DLGO_NA_LINKAGE,105,97,57,8
+    LTEXT           "Static",IDC_DLGO_NL_LINKAGE,105,107,57,8
+    LTEXT           "Static",IDC_DLGO_AN_LINKAGE,105,117,57,8
+    LTEXT           "Static",IDC_DLGO_AL_LINKAGE,105,127,57,8
+    LTEXT           "Static",IDC_DLGO_AREA_COORD_LIST,105,137,57,8
+    LTEXT           "Static",IDC_DLGO_LINE_COORD_LIST,105,147,57,8
+END
+
+IDD_DLG_OPTIONS DIALOG DISCARDABLE  0, 0, 189, 204
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DLG View Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,30,175,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,106,175,50,14
+    CONTROL         "Circle",IDC_NODE_SHAPE_CIRCLE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,34,63,41,10
+    CONTROL         "Square",IDC_NODE_SHAPE_SQUARE,"Button",
+                    BS_AUTORADIOBUTTON,34,80,41,10
+    CONTROL         "Triangle",IDC_NODE_SHAPE_TRIANGLE,"Button",
+                    BS_AUTORADIOBUTTON,34,97,41,10
+    CONTROL         "Circle",IDC_AREA_SHAPE_CIRCLE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,113,63,41,10
+    CONTROL         "Square",IDC_AREA_SHAPE_SQUARE,"Button",
+                    BS_AUTORADIOBUTTON,113,80,41,10
+    CONTROL         "Triangle",IDC_AREA_SHAPE_TRIANGLE,"Button",
+                    BS_AUTORADIOBUTTON,113,97,41,10
+    PUSHBUTTON      "Line Color...",IDC_LINE_COLOR,60,140,68,20
+    GROUPBOX        "Node Shape",IDC_STATIC,25,44,60,69
+    GROUPBOX        "Area Shape",IDC_STATIC,105,44,60,69
+    CONTROL         "Hide Nodes",IDC_HIDE_NODES_OVERLAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,121,53,12
+    CONTROL         "Hide Areas",IDC_HIDE_AREAS_OVERLAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,69,121,50,12
+    CONTROL         "Hide Lines",IDC_HIDE_LINES_OVERLAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,122,121,53,12
+    CONTROL         "Slider1",IDC_DLG_LINE_WIDTH,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,49,18,90,20
+    GROUPBOX        "Line Width",IDC_STATIC,27,7,136,35
+    LTEXT           "Thin",IDC_STATIC,31,24,15,8
+    LTEXT           "Thick",IDC_STATIC,141,24,19,8
+END
+
+IDD_DISTANCE DIALOG DISCARDABLE  0, 0, 135, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Distance"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,42,70,50,14
+    CONTROL         "Meters",IDC_METERS,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,15,33,59,9
+    CONTROL         "Kilometers",IDC_KILOMETERS,"Button",BS_AUTORADIOBUTTON,
+                    15,44,48,10
+    CONTROL         "Feet",IDC_FEET,"Button",BS_AUTORADIOBUTTON,81,32,36,11
+    CONTROL         "Miles",IDC_Miles,"Button",BS_AUTORADIOBUTTON,81,44,47,
+                    11
+    GROUPBOX        "Units",IDC_STATIC,9,20,115,42
+    CONTROL         "Static",IDC_DISTANCE,"Static",SS_LEFTNOWORDWRAP,13,7,
+                    109,9
+END
+
+IDD_RASTER_OPTIONS DIALOG DISCARDABLE  0, 0, 206, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "General Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_RASTER_OPTIONS_INTENSITY,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_BOTH | WS_BORDER | WS_TABSTOP,46,23,
+                    107,30
+    LTEXT           "Color Intensity",IDC_STATIC,80,13,45,8
+    LTEXT           "Darker",IDC_STATIC,158,33,27,10
+    LTEXT           "Lighter",IDC_STATIC,20,33,25,10
+    PUSHBUTTON      "Default",IDC_RASTER_OPTIONS_DEFAULT_INTENSITY,77,57,50,
+                    14
+    CONTROL         "Transparent",IDC_RASTER_OPTIONS_TRANSPARENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,78,86,16
+    PUSHBUTTON      "Set Transparent Color...",
+                    IDC_RASTER_OPTIONS_TRANS_COLOR,106,78,83,16
+    CONTROL         "Use Bilinear Interpolation",IDC_RASTER_INTERPOLATE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,97,94,10
+    CONTROL         "Texture Map",IDC_RASTER_TEXTURE_MAP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,111,94,10
+END
+
+IDD_CLIPPING_REGION_SELECTOR DIALOG DISCARDABLE  0, 0, 287, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Overlays to Apply the Clipping Region To"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,87,141,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,140,50,14
+    PUSHBUTTON      "Select All",IDC_SELECT_ALL_OVERLAYS,87,122,50,14
+    CONTROL         "OR",IDC_COMBO_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,29,106,27,8
+    CONTROL         "AND",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,75,105,28,10
+    CONTROL         "COPY",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,122,105,34,10
+    CONTROL         "DIFF",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,175,105,32,10
+    CONTROL         "XOR",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,226,105,31,10
+    LISTBOX         IDC_OVERLAYS_TO_CLIP_LIST,17,23,254,70,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Deselect All",IDC_DESELECT_ALL,149,122,50,14
+    LTEXT           "Currently Open Overlays",IDC_STATIC,17,13,99,10
+    GROUPBOX        "Combination Mode",IDC_STATIC,18,95,254,23
+END
+
+IDD_COLOR_PICKER DIALOG DISCARDABLE  0, 0, 143, 126
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Transparent Color"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,17,99,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,75,99,50,14
+    LISTBOX         IDC_TRANS_COLOR_LIST,21,17,101,70,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_EASTEREGG DIALOG DISCARDABLE  0, 0, 129, 190
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+CAPTION "Developer Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,40,169,50,14
+    GROUPBOX        "Interface Design Team",IDC_STATIC,23,14,86,32
+    LTEXT           "Mike Childs\nJamie Moyers",IDC_STATIC,42,25,48,18
+    GROUPBOX        "Programming Team",IDC_STATIC,23,86,87,35,BS_CENTER
+    LTEXT           "Mike Childs",IDC_STATIC,46,97,40,9
+    GROUPBOX        "Software Design Team",IDC_STATIC,23,50,86,32
+    LTEXT           "Lead:  Mike Childs\nOther: Jamie Moyers",IDC_STATIC,33,
+                    62,66,18
+    GROUPBOX        "SDTS++ Toolkit",IDC_STATIC,23,125,87,35,BS_CENTER
+    CTEXT           "Mark Coletti\nJamie Moyers",IDC_STATIC,28,135,74,24
+END
+
+IDD_SDTS_LAYER_DIALOG DIALOG DISCARDABLE  0, 0, 324, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SDTS Layer Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,106,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,201,106,50,14
+    LTEXT           "Select layers to view:",IDC_STATIC,20,13,172,8
+    LISTBOX         IDC_LAYER_LIST,20,25,284,74,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_SDTSDLG_IDEN DIALOG DISCARDABLE  0, 0, 232, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Identification"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Standard ID:",IDC_STATIC,7,7,64,8
+    RTEXT           "Standard Version:",IDC_STATIC,7,17,64,8
+    RTEXT           "Standard Doc. Ref.:",IDC_STATIC,7,27,64,8
+    RTEXT           "Profile ID:",IDC_STATIC,7,37,64,8
+    RTEXT           "Profile Version:",IDC_STATIC,7,47,64,8
+    RTEXT           "Profile Doc. Ref.:",IDC_STATIC,7,57,64,8
+    RTEXT           "Title:",IDC_STATIC,7,67,64,8
+    RTEXT           "Data ID:",IDC_STATIC,7,77,64,8
+    RTEXT           "Data Structure:",IDC_STATIC,7,87,64,8
+    RTEXT           "Map Date:",IDC_STATIC,7,97,64,8
+    RTEXT           "Creation Date:",IDC_STATIC,7,107,64,8
+    RTEXT           "Scale:",IDC_STATIC,7,117,64,8
+    RTEXT           "Composites:",IDC_STATIC,7,127,64,8
+    RTEXT           "Vector Geometry:",IDC_STATIC,7,137,64,8
+    RTEXT           "Vector Topology:",IDC_STATIC,7,147,64,8
+    RTEXT           "Raster:",IDC_STATIC,7,157,64,8
+    RTEXT           "Ext. Spatial Ref.:",IDC_STATIC,7,167,64,8
+    RTEXT           "Features Level:",IDC_STATIC,7,177,64,8
+    CONTROL         "Static",IDC_SDTDDLG_IDEN_STANDARDID,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,7,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_STANDARDVER,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,17,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_STANDARDDOCREF,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,27,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_PROFILEID,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,37,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_PROFILEVER,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,47,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_PROFILEDOCREF,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,57,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_TITLE,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,67,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_DATASTRUCT,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,87,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_DATAID,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,77,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_MAPDATE,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,97,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_CREATIONDATE,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,107,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_SCALE,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,117,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_COMPOSITES,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,127,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_VECTORGEOMETRY,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,137,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_VECTORTOPOLOGY,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,147,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_RASTER,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,157,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_FEATURESLEVEL,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,177,142,8
+    CONTROL         "Static",IDC_SDTSDLG_IDEN_EXTSPATIALREF,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,83,167,142,8
+    RTEXT           "Projection:",IDC_STATIC,7,187,64,8
+    EDITTEXT        IDC_SDTSDLG_IDEN_PROJECTION,83,187,142,31,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+END
+
+IDD_SDTSDLG_STAT DIALOG DISCARDABLE  0, 0, 236, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Transfer Stats"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Number of Area Points:",IDC_STATIC,17,18,94,8
+    RTEXT           "Number of Node Points:",IDC_STATIC,17,31,94,8
+    RTEXT           "Number of Degenerate Lines:",IDC_STATIC,17,44,94,8
+    RTEXT           "Number of Lines:",IDC_STATIC,17,57,94,8
+    LTEXT           "Static",IDC_SDTSDLG_STAT_NUMAREAS,122,18,68,8
+    LTEXT           "Static",IDC_SDTSDLG_STAT_NONODES,122,31,68,8
+    LTEXT           "Static",IDC_SDTSDLG_STAT_NODEGLINES,122,44,68,8
+    LTEXT           "Static",IDC_SDTSDLG_STAT_NOLINES,122,57,68,8
+    RTEXT           "Number of Polygons:",IDC_STATIC,17,71,94,8
+    LTEXT           "Static",IDC_SDTSDLG_STAT_NOPOLYGONS,122,71,68,8
+END
+
+IDD_SDTSDLG_DATAQUALITY DIALOG DISCARDABLE  0, 0, 223, 226
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Data Quality"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Attribute Accuracy",IDC_STATIC,7,7,64,8
+    EDITTEXT        IDC_SDTSDLG_DQAA,7,18,209,27,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_SDTSDLG_DQCG,7,59,209,27,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_SDTSDLG_DQHL,7,100,209,27,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_SDTSDLG_DQLC,7,141,209,27,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_SDTSDLG_DQPA,7,182,209,27,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    LTEXT           "Completeness",IDC_STATIC,7,48,64,8
+    LTEXT           "Lineage",IDC_STATIC,7,89,64,8
+    LTEXT           "Logical Consistency",IDC_STATIC,7,130,64,8
+    LTEXT           "Positional Accuracy",IDC_STATIC,7,171,64,8
+END
+
+IDD_TIFF_METADATA DIALOG DISCARDABLE  0, 0, 218, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TIFF Metadata"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Photometric Interpretation:",IDC_STATIC,7,68,85,10
+    RTEXT           "Bits Per Pixel:",IDC_STATIC,7,79,85,10
+    RTEXT           "Image Length (pixels):",IDC_STATIC,7,89,85,10
+    RTEXT           "Image Width (pixels):",IDC_STATIC,7,100,85,10
+    RTEXT           "Rows Per Strip:",IDC_STATIC,7,111,85,10
+    LTEXT           "Static",IDC_PHOTOMETRIC_INTERP,99,68,112,10
+    LTEXT           "Static",IDC_BITS_PER_SAMPLE,99,79,112,10
+    LTEXT           "Static",IDC_TIFF_LENGTH,99,89,112,10
+    LTEXT           "Static",IDC_TIFF_WIDTH,99,100,112,10
+    LTEXT           "Static",IDC_ROWS_PER_STRIP,99,111,112,10
+    RTEXT           "Image Description:",IDC_STATIC,7,7,85,10
+    RTEXT           "Date/Time Created:",IDC_STATIC,7,44,85,10
+    RTEXT           "Copyright:",IDC_STATIC,7,57,85,10
+    LTEXT           "Static",IDC_TIFF_DESCRIPTION,99,7,112,37
+    LTEXT           "Static",IDC_TIFF_DATETIME,99,44,112,10
+    LTEXT           "Static",IDC_TIFF_COPYRIGHT,99,57,112,10
+END
+
+IDD_GEOTIFF_METADATA DIALOG DISCARDABLE  0, 0, 208, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GeoTIFF Tags"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Model Type:",IDC_STATIC,7,7,53,8
+    RTEXT           "Raster Type:",IDC_STATIC,7,19,53,8
+    RTEXT           "PCS Citation:",IDC_STATIC,7,30,53,8
+    RTEXT           "Geo Tiepoint:",IDC_STATIC,7,58,53,8
+    RTEXT           "Geo Pixel Scale:",IDC_STATIC,7,69,53,8
+    LTEXT           "Static",IDC_GEOTIFF_MODELTYPE,65,7,129,8
+    LTEXT           "Static",IDC_GEOTIFF_RASTERTYPE,65,19,129,8
+    LTEXT           "Static",IDC_GEOTIFF_GEOTIEPOINT,65,58,129,8
+    LTEXT           "Static",IDC_GEOTIFF_GEOPIXELSCALE,65,69,129,8
+    EDITTEXT        IDC_GEOTIFF_PCSCITATION,65,30,138,24,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    RTEXT           "Projection:",IDC_STATIC,7,80,53,8
+    EDITTEXT        IDC_GEOTIFF_PROJECTION,65,80,138,30,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DLGO_HEADERINFO DIALOG DISCARDABLE  0, 0, 208, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DLG Header Info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "BANNER TEXT HERE",IDC_DLGO_BANNER,7,7,178,23
+    RTEXT           "Digital Cartographic Unit Name:",IDC_STATIC,7,34,100,8
+    LTEXT           "h.getDCU_Name (IDC_DCU_NAME)",IDC_DLGO_DCU_NAME,114,34,
+                    87,8
+    RTEXT           "Original Source Material Date:",IDC_STATIC,7,44,100,8
+    LTEXT           "h.getOrigSourceMaterialDate (IDC_SOURCE_DATE)",
+                    IDC_DLGO_SOURCE_DATE,114,44,87,8
+    RTEXT           "Date Qualifier:",IDC_STATIC,7,54,100,8
+    LTEXT           "h.getDateQualifier (IDC_DATE_QUALIFIER)",
+                    IDC_DLGO_DATE_QUALIFIER,114,54,87,8
+    RTEXT           "Original Source Material Scale:",IDC_STATIC,7,64,100,8
+    LTEXT           "h.getOrigSourceMaterialScale (IDC_SOURCE_SCALE)",
+                    IDC_DLGO_SOURCE_SCALE,114,64,87,8
+    RTEXT           "Level Code (Code = 3, DLG-3):",IDC_STATIC,7,74,100,8
+    LTEXT           "h.getLevelCode (IDC_LEVEL_CODE)",IDC_DLGO_LEVEL_CODE,
+                    114,74,87,8
+    RTEXT           "Resolution:",IDC_STATIC,7,84,100,8
+    LTEXT           "h.getResolution (IDC_RESOLUTION)",IDC_DLGO_RESOLUTION,
+                    114,84,87,8
+    RTEXT           "Vertical Datum:",IDC_STATIC,7,94,100,8
+    LTEXT           "h.getVerticalDatum",IDC_DLGO_VDATUM,114,94,87,8
+    RTEXT           "Projection:",IDC_STATIC,16,130,38,8
+    EDITTEXT        IDC_DLGO_HEADER_PROJECTION,60,108,141,46,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DLGO_CONTROLPOINTS DIALOG DISCARDABLE  0, 0, 147, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Control Points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Control Point ID:",IDC_STATIC,7,39,67,8
+    RTEXT           "Control Point Label:",IDC_STATIC,7,50,67,8
+    RTEXT           "Latitude:",IDC_STATIC,7,61,67,8
+    RTEXT           "Longitude:",IDC_STATIC,7,72,67,8
+    RTEXT           "x - Coordinate:",IDC_STATIC,7,83,67,8
+    RTEXT           "y - Coordinate:",IDC_STATIC,7,94,67,8
+    LTEXT           "0",IDC_DLGO_CONTROLPOINT_ID,78,39,36,8
+    LTEXT           "Static",IDC_DLGO_CONTROLPOINT_LABEL,78,50,57,8
+    LTEXT           "Static",IDC_DLGO_CONTROLPOINT_LATITUDE,78,61,57,8
+    LTEXT           "Static",IDC_DLGO_CONTROLPOINT_LONGITUDE,78,72,57,8
+    LTEXT           "Static",IDC_DLGO_CONTROLPOINT_X,78,83,57,8
+    LTEXT           "Static",IDC_DLGO_CONTROLPOINT_Y,78,94,57,8
+    LTEXT           "Current Control Point:",IDC_STATIC,20,13,68,8
+    CONTROL         "Spin1",IDC_DLGO_CONTROLPOINT_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,116,7,16,21
+    EDITTEXT        IDC_DLGO_CONTROLPOINT_NUMBER,94,11,20,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_SDTSDLG_AHDR DIALOG DISCARDABLE  0, 0, 231, 231
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Attribute Header"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_SDTSDLG_AHDR_PAIRS,"SysListView32",
+                    LVS_REPORT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,
+                    27,217,190
+    LTEXT           "Static",IDC_SDTSDLG_AHDR_BANNER,45,7,179,20
+    LTEXT           "BANNER:",IDC_STATIC,7,7,33,8
+END
+
+IDD_DAYLIGHT_SHADER DIALOG DISCARDABLE  0, 0, 201, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Daylight Shader"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Light Direction",IDC_STATIC,10,7,46,8
+    LTEXT           "Water Level",IDC_STATIC,10,40,40,8
+    CONTROL         "Slider1",IDC_DAYLIGHT_SHADER_WATER_LEVEL,
+                    "msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_BORDER | 
+                    WS_TABSTOP,10,51,150,28
+    LTEXT           "Water Alpha",IDC_STATIC,10,86,40,8
+    CONTROL         "Slider2",IDC_DAYLIGHT_SHADER_WATER_ALPHA,
+                    "msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_BORDER | 
+                    WS_TABSTOP,10,98,150,28
+    PUSHBUTTON      "Surface Color...",IDC_DAYLIGHT_SHADER_SURFACE_COLOR,11,
+                    134,60,16
+    PUSHBUTTON      "Water Color...",IDC_DAYLIGHT_SHADER_WATER_COLOR,77,134,
+                    60,16
+    CONTROL         "Water On",IDC_DAYLIGHT_SHADER_WATER_ON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,143,137,47,10
+    LTEXT           "Static",IDC_DAYLIGHT_SHADER_WATER_LEVEL_TEXT,162,61,32,
+                    8
+    LTEXT           "Static",IDC_DAYLIGHT_SHADER_ALPHA_TEXT,162,108,32,8
+    EDITTEXT        IDC_DAYLIGHT_SHADER_ALTITUDE,53,21,31,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_DAYLIGHT_SHADER_ALTITUDE_SPINNER,
+                    "msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,88,18,11,18
+    EDITTEXT        IDC_DAYLIGHT_SHADER_AZIMUTH,143,21,31,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_DAYLIGHT_SHADER_AZIMUTH_SPINNER,
+                    "msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,177,18,11,19
+    LTEXT           "Azimuth",IDC_STATIC,113,23,26,8
+    LTEXT           "Altitude",IDC_STATIC,27,23,24,8
+END
+
+IDD_GRADIENT_SHADER_OPTIONS DIALOG DISCARDABLE  0, 0, 167, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Gradient Shader"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Low Color...",IDC_GRADIENT_SHADER_LOW_COLOR,51,15,66,19
+    PUSHBUTTON      "High Color...",IDC_GRADIENT_SHADER_HIGH_COLOR,51,41,66,
+                    19
+END
+
+IDD_VERTICAL_OPTIONS DIALOG DISCARDABLE  0, 0, 205, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Vertical Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_VERTICAL_OPTIONS_WATER_LEVEL,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    13,165,133,17
+    CONTROL         "Slider2",IDC_VERTICAL_OPTIONS_WATER_ALPHA,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    43,132,118,17
+    PUSHBUTTON      "Water Color...",IDC_VERTICAL_OPTIONS_WATER_COLOR,36,190,
+                    60,16
+    CONTROL         "Water Enabled",IDC_VERTICAL_OPTIONS_WATER_ON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,102,193,63,10
+    LTEXT           "Static",IDC_VERTICAL_OPTIONS_WATER_LEVEL_TEXT,147,169,
+                    44,8
+    EDITTEXT        IDC_VERTICAL_OPTIONS_ALTITUDE,49,34,31,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_VERTICAL_OPTIONS_ALTITUDE_SPINNER,
+                    "msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,84,31,11,18
+    EDITTEXT        IDC_VERTICAL_OPTIONS_AZIMUTH,139,34,31,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_VERTICAL_OPTIONS_AZIMUTH_SPINNER,
+                    "msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,173,31,11,19
+    LTEXT           "Azimuth",IDC_STATIC,109,37,26,8
+    LTEXT           "Altitude",IDC_STATIC,23,37,24,8
+    RTEXT           "Clear",IDC_STATIC,15,136,24,8
+    LTEXT           "Opaque",IDC_STATIC,165,136,25,8
+    COMBOBOX        IDC_VERTICAL_OPTIONS_SHADER,22,6,82,40,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Light Direction",IDC_STATIC,7,23,191,30
+    CONTROL         "Enable Lighting",IDC_VERTICAL_OPTIONS_ENABLE_LIGHTING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,113,7,65,10
+    CONTROL         "Slider2",IDC_VERTICAL_OPTIONS_AMBIENT_LIGHT,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    43,67,118,17
+    LTEXT           "Dimmer",IDC_STATIC,15,71,24,8
+    LTEXT           "Brighter",IDC_STATIC,165,71,25,8
+    GROUPBOX        "Ambient Lighting",IDC_STATIC,7,57,191,29
+    GROUPBOX        "Water Transparency",IDC_STATIC,7,122,191,29
+    GROUPBOX        "Water Level",IDC_STATIC,7,154,191,29
+    GROUPBOX        "Vertical Exaggeration",IDC_STATIC,7,90,191,29
+    CONTROL         "Slider2",IDC_VERTICAL_OPTIONS_VERT_EXAG,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    43,99,118,17
+    RTEXT           "Flat",IDC_STATIC,15,103,24,8
+    LTEXT           "High",IDC_STATIC,165,103,25,8
+END
+
+IDD_SHADER_OPTIONS DIALOG DISCARDABLE  0, 0, 208, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Shader Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Daylight Shader",IDC_STATIC,7,7,194,33
+    GROUPBOX        "Gradient Shader",IDC_STATIC,7,46,194,35
+    PUSHBUTTON      "Set Surface Color...",
+                    IDC_SHADER_OPTIONS_DAYLIGHT_SURFACE_COLOR,67,19,72,14
+    PUSHBUTTON      "Set Low Color...",
+                    IDC_SHADER_OPTIONS_GRADIENT_SET_LO_COLOR,27,59,66,14
+    PUSHBUTTON      "Set High Color...",
+                    IDC_SHADER_OPTIONS_GRADIENT_SET_HI_COLOR,112,59,66,14
+    GROUPBOX        "HSV Shader",IDC_STATIC,7,86,194,114
+    CONTROL         "Slider1",IDC_SHADER_OPTIONS_HSV_LOW_COLOR_START,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    72,103,129,15
+    CONTROL         "Slider2",IDC_SHADER_OPTIONS_HSV_VALUE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,66,126,129,15
+    CONTROL         "Slider3",IDC_SHADER_OPTIONS_HSV_SATURATION,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    66,150,129,15
+    RTEXT           "Low Color Start:",IDC_STATIC,15,105,51,8
+    LTEXT           "Value:",IDC_STATIC,45,129,21,8
+    LTEXT           "Saturation:",IDC_STATIC,31,153,35,8
+    CONTROL         "Slider4",IDC_SHADER_OPTIONS_HSV_RANGE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,65,174,129,15
+    RTEXT           "Range:",IDC_STATIC,42,177,24,8
+END
+
+IDD_TEXTURE_MAPPED_SELECTOR DIALOG DISCARDABLE  0, 0, 186, 126
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Layers to Texture Map"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,96,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,95,50,14
+    LISTBOX         IDC_TEXTURE_MAPPED_LAYERS_LIST,7,7,172,68,LBS_SORT | 
+                    LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_GEOTIFF_VERTICAL_METADATA DIALOG DISCARDABLE  0, 0, 211, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Vertical Metadata"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Vertical Datum:",IDC_STATIC,7,32,64,8
+    RTEXT           "Vertical Units:",IDC_STATIC,7,45,64,8
+    RTEXT           "Vertical Citation:",IDC_STATIC,7,7,64,8
+    RTEXT           "Minimum Elevation:",IDC_STATIC,7,58,64,8
+    RTEXT           "Maximum Elevation:",IDC_STATIC,7,71,64,8
+    LTEXT           "Static",IDC_GEOTIFF_VERTICAL_CITATION,77,7,127,24
+    LTEXT           "Static",IDC_GEOTIFF_VERTICAL_DATUM,77,32,127,8
+    LTEXT           "Static",IDC_GEOTIFF_VERTICAL_UNITS,77,45,127,8
+    LTEXT           "Static",IDC_GEOTIFF_MIN_ELEVATION,77,57,127,8
+    LTEXT           "Static",IDC_GEOTIFF_MAX_ELEVATION,77,71,127,8
+END
+
+IDD_RASTER_METADATA DIALOG DISCARDABLE  0, 0, 217, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Raster Metadata"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Description:",IDC_STATIC,7,7,64,8
+    RTEXT           "Projection:",IDC_STATIC,7,28,64,8
+    RTEXT           "Image Width:",IDC_STATIC,7,77,64,8
+    RTEXT           "Image Height:",IDC_STATIC,7,88,64,8
+    RTEXT           "Vertical Units:",IDC_RASTER_VERTICAL_UNITS_LABEL,7,98,
+                    64,8
+    RTEXT           "Minimum Elevation:",IDC_RASTER_MIN_ELEVATION_LABEL,7,
+                    110,64,8
+    RTEXT           "Maximum Elevation:",IDC_RASTER_MAX_ELEVATION_LABEL,7,
+                    122,64,8
+    LTEXT           "Static",IDC_RASTER_DESCRIPTION,75,7,135,21
+    LTEXT           "Static",IDC_RASTER_WIDTH,75,77,107,8
+    LTEXT           "Static",IDC_RASTER_HEIGHT,75,88,107,8
+    LTEXT           "",IDC_RASTER_VERTICAL_UNITS,75,98,104,8
+    LTEXT           "",IDC_RASTER_MIN_ELEVATION,75,110,105,8
+    LTEXT           "",IDC_RASTER_MAX_ELEVATION,75,122,106,8
+    EDITTEXT        IDC_RASTER_PROJECTION,75,28,135,46,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_OVERLAY_TYPE_SELECTOR DIALOG DISCARDABLE  0, 0, 162, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Overlay Type"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,21,115,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,115,50,14
+    CTEXT           "The overlay type could not be determined from the filename you selected.  Please select the type of overlay you wish to view.",
+                    IDC_STATIC,16,10,130,35,SS_SUNKEN
+    LISTBOX         IDC_OVERLAY_TYPE_LIST,15,49,131,59,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,7,0,3
+ PRODUCTVERSION 3,7,0,3
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Developed by: USGS-MCMC\0"
+            VALUE "CompanyName", "U.S. Geological Survey\0"
+            VALUE "FileDescription", "DLG Viewer\0"
+            VALUE "FileVersion", "3.7\0"
+            VALUE "InternalName", "dlgv32\0"
+            VALUE "LegalCopyright", "Copyright © 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "dlgv32.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "DLG Viewer\0"
+            VALUE "ProductVersion", "3.7\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_LOADING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_MAIN_PROPERTIES_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_PICK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DLGO_CATEGORY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_DLG_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_DISTANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_RASTER_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_CLIPPING_REGION_SELECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_COLOR_PICKER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_EASTEREGG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_SDTS_LAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 317
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_SDTSDLG_IDEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_SDTSDLG_STAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_SDTSDLG_DATAQUALITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_TIFF_METADATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_GEOTIFF_METADATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_DLGO_HEADERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_DLGO_CONTROLPOINTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_SDTSDLG_AHDR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DAYLIGHT_SHADER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_GRADIENT_SHADER_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_VERTICAL_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_SHADER_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_TEXTURE_MAPPED_SELECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_GEOTIFF_VERTICAL_METADATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_RASTER_METADATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_OVERLAY_TYPE_SELECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_PAN_CURSOR          CURSOR  DISCARDABLE     "res\\cursor2.cur"
+IDC_ZOOM_CURSOR         CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_X_CURSOR            CURSOR  DISCARDABLE     "res\\cur00002.cur"
+IDC_POLY_SELECTOR_CURSOR CURSOR  DISCARDABLE     "res\\cur00003.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "DLG Viewer\n\nucdv\ndlgv32 Files (*.do)\n.DO\ndlgv32.Document\nDLG Viewer Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "dlgv32"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+    IDS_REGISTRY_PATH       "HKEY_CURRENT_USER\\SOFTWARE\\USGS-NMD-MCMC-RTA-SES\\dlgv32"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPEN_NEW        "Open a file all by itself\nOpen As New"
+    ID_FILE_OPEN_CURRENT    "Open a file with those already loaded\nOpen Into Current"
+    ID_FILE_UNLOAD_ALL      "Unload all overlays\nUnload All"
+    ID_TOOLS_ZOOM           "Select zoom controller\nZoom Tool"
+    ID_TOOLS_PAN            "Select pan controller\nPan"
+    ID_ZOOM_IN              "Zoom in by 2\nZoom In"
+    ID_ZOOM_OUT             "Zoom out by 2\nZoom Out"
+    ID_VIEW_FULLVIEW        "Full View\nFull View"
+    ID_TOOLS_DISTANCE       "Select Distance-Finder Controller\nDistance"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CURRENT_TOOL         "ZOOM"
+    ID_MOUSE_POS_UTM        "( UTM X COORD, UTM Y COORD )"
+    ID_MOUSE_POS_LATLONG    "XX DEG XX' XX"" N YY DEG YY' YY"" S"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLS_PICK           "Pick Objects\nPick"
+    ID_TOOLS_CONTROLCENTER  "Open Control Center\nOpen Control Center"
+    ID_BG_COLOR             "Change Background Color"
+    ID_TOOLS_POLYREGION     "Define polygonal clipping region\nPolyRegion"
+    ID_EXPORT_GEOTIFF       "Export GeoTIFF"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\dlgv32.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

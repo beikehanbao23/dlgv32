@@ -1,0 +1,16 @@
+:Base  dlgv32.HLP>; This contents file was created with HelpScribble 2.2.0
+:Title DLG Viewer Help Topics
+1 Introduction=Topic196
+1 Menu Commands
+2 File Menu=menu_file>main
+2 View Menu=menu_view>main
+2 Tools Menu=menu_tools>main
+2 Help Menu=menu_help>main
+1 How Do I...
+2 Join DRG Quadrangles=Joining_DRG_Quadrangles>main
+2 View DLG-O Attributes=Topic195
+2 View DLG/SDTS Attributes=Topic197
+2 Hide Selected Parts of an Image=Topic198
+2 Layer an Image on an Elevation Model=Topic199
+1 FAQ
+2 What is SDTS?=Topic194

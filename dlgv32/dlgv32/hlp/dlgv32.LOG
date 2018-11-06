@@ -1,0 +1,25 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+dlgv32.hpj
+    HC1012: Note: topic #3 of D:\Program Files\Microsoft Visual Studio\MyProjects\Applications\dlgv32\dlgv32\dlgv32\hlp\newdlgv32.rtf : 
+	Table cell borders are not supported.
+    HC1012: Note: topic #4 of D:\Program Files\Microsoft Visual Studio\MyProjects\Applications\dlgv32\dlgv32\dlgv32\hlp\newdlgv32.rtf : 
+	Table cell borders are not supported.
+    HC1012: Note: topic #5 of D:\Program Files\Microsoft Visual Studio\MyProjects\Applications\dlgv32\dlgv32\dlgv32\hlp\newdlgv32.rtf : 
+	Table cell borders are not supported.
+    HC1012: Note: topic #6 of D:\Program Files\Microsoft Visual Studio\MyProjects\Applications\dlgv32\dlgv32\dlgv32\hlp\newdlgv32.rtf : 
+	Table cell borders are not supported.
+    HC2002: Note: 
+	The keywords "element ID" and "Element ID" are identical except for case. Help Workshop has modified one keyword to match the other.
+68	Topics
+44	Jumps
+159	Keywords
+29	Bitmaps
+
+
+Created D:\Program Files\Microsoft Visual Studio\MyProjects\Applications\dlgv32\dlgv32\dlgv32\hlp\dlgv32.hlp, 131,341 bytes
+Bitmaps: 95,153 bytes
+Hall+Zeck compression decreased help file by 18,943 bytes.
+Compile time: 0 minutes, 14 seconds
+5 notes, 0 warnings
